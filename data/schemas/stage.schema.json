@@ -1,0 +1,81 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "https://multiverse.game/schemas/stage.json",
+  "title": "Stage",
+  "description": "Stage/Level definition from tz.json",
+  "type": "object",
+  "properties": {
+    "id": {
+      "type": "number",
+      "description": "Stage ID"
+    },
+    "nameCN": {
+      "type": "string",
+      "description": "Chinese stage name"
+    },
+    "nameEN": {
+      "type": "string",
+      "description": "English stage name"
+    },
+    "nameKO": {
+      "type": "string",
+      "description": "Korean stage name"
+    },
+    "universe": {
+      "type": "number",
+      "description": "Universe/dimension"
+    },
+    "stageNumber": {
+      "type": "number",
+      "description": "Stage number in universe"
+    },
+    "enemies": {
+      "type": "array",
+      "items": {
+        "type": "number"
+      },
+      "description": "Enemy IDs (up to 6 slots)"
+    },
+    "boss": {
+      "type": "number",
+      "description": "Boss ID"
+    },
+    "itemDrops": {
+      "type": "array",
+      "items": {
+        "type": "number"
+      },
+      "description": "Item drop IDs"
+    },
+    "weaponType": {
+      "type": "number",
+      "description": "Weapon type restriction/bonus"
+    },
+    "itemSet": {
+      "type": "number",
+      "description": "Item set available"
+    },
+    "itemLevel": {
+      "type": "number",
+      "description": "Item level drops"
+    },
+    "difficulty": {
+      "type": "number",
+      "description": "Difficulty tier"
+    },
+    "unlockCondition": {
+      "type": "number",
+      "description": "Unlock requirement"
+    },
+    "stageType": {
+      "type": "number",
+      "description": "Stage type (1=normal, 2=secret, 3=major)"
+    }
+  },
+  "required": [
+    "id",
+    "nameCN",
+    "universe",
+    "stageNumber"
+  ]
+}

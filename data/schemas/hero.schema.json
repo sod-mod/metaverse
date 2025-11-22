@@ -1,0 +1,130 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "https://multiverse.game/schemas/hero.json",
+  "title": "Hero",
+  "description": "Hero/Character definition from js.json",
+  "type": "object",
+  "properties": {
+    "id": {
+      "type": "number",
+      "description": "Unique hero ID"
+    },
+    "nameCN": {
+      "type": "string",
+      "description": "Chinese name"
+    },
+    "nameEN": {
+      "type": "string",
+      "description": "English name"
+    },
+    "nameKO": {
+      "type": "string",
+      "description": "Korean name"
+    },
+    "race": {
+      "type": "string",
+      "description": "Race (人类, etc)"
+    },
+    "displayName": {
+      "type": "string",
+      "description": "Display name"
+    },
+    "spriteId": {
+      "type": "number",
+      "description": "Sprite/Image ID"
+    },
+    "universe": {
+      "type": "number",
+      "description": "Universe/dimension"
+    },
+    "stage": {
+      "type": "number",
+      "description": "Stage/Level"
+    },
+    "stats": {
+      "type": "object",
+      "properties": {
+        "hp": {
+          "type": "number",
+          "description": "Base HP"
+        },
+        "atk": {
+          "type": "number",
+          "description": "Base ATK"
+        },
+        "def": {
+          "type": "number",
+          "description": "Base DEF"
+        },
+        "spd": {
+          "type": "number",
+          "description": "Base SPD"
+        },
+        "magic": {
+          "type": "number",
+          "description": "Base Magic"
+        }
+      },
+      "required": [
+        "hp",
+        "atk",
+        "def",
+        "spd",
+        "magic"
+      ]
+    },
+    "jobLevels": {
+      "type": "array",
+      "items": {
+        "type": "number"
+      },
+      "minItems": 10,
+      "maxItems": 10,
+      "description": "Job progression levels (10 slots)"
+    },
+    "talents": {
+      "type": "array",
+      "items": {
+        "type": "number"
+      },
+      "minItems": 4,
+      "maxItems": 4,
+      "description": "Talent slot IDs (4 slots)"
+    },
+    "description": {
+      "type": "string",
+      "description": "Hero description"
+    },
+    "gender": {
+      "type": "string",
+      "enum": [
+        "男",
+        "女"
+      ],
+      "description": "Gender"
+    },
+    "rarity": {
+      "type": "number",
+      "description": "Rarity level"
+    },
+    "recruitCost": {
+      "type": "number",
+      "description": "Recruitment cost"
+    },
+    "title": {
+      "type": "string",
+      "description": "Title/epithet"
+    },
+    "unlocked": {
+      "type": "boolean",
+      "description": "Initially unlocked"
+    }
+  },
+  "required": [
+    "id",
+    "nameCN",
+    "stats",
+    "jobLevels",
+    "talents"
+  ]
+}

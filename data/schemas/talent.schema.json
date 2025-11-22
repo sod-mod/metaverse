@@ -1,0 +1,61 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "https://multiverse.game/schemas/talent.json",
+  "title": "Talent",
+  "description": "Talent definition from mg.json",
+  "type": "object",
+  "properties": {
+    "id": {
+      "type": "number",
+      "description": "Talent ID"
+    },
+    "nameCN": {
+      "type": "string",
+      "description": "Chinese talent name"
+    },
+    "nameEN": {
+      "type": "string",
+      "description": "English talent name"
+    },
+    "nameKO": {
+      "type": "string",
+      "description": "Korean talent name"
+    },
+    "tree": {
+      "type": "number",
+      "description": "Talent tree ID"
+    },
+    "icon": {
+      "type": "number",
+      "description": "Icon ID"
+    },
+    "maxLevel": {
+      "type": "number",
+      "description": "Maximum level"
+    },
+    "description": {
+      "type": "string",
+      "description": "Talent description"
+    },
+    "prerequisites": {
+      "type": "array",
+      "items": {
+        "type": "number"
+      },
+      "description": "Required talent IDs"
+    },
+    "tier": {
+      "type": "number",
+      "description": "Talent tier"
+    },
+    "position": {
+      "type": "number",
+      "description": "Position in tree"
+    }
+  },
+  "required": [
+    "id",
+    "nameCN",
+    "tree"
+  ]
+}

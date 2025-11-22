@@ -1,0 +1,93 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "https://multiverse.game/schemas/equipment.json",
+  "title": "Equipment",
+  "description": "Equipment/Item definition from wp.json",
+  "type": "object",
+  "properties": {
+    "id": {
+      "type": "number",
+      "description": "Item ID"
+    },
+    "nameCN": {
+      "type": "string",
+      "description": "Chinese item name"
+    },
+    "nameEN": {
+      "type": "string",
+      "description": "English item name"
+    },
+    "nameKO": {
+      "type": "string",
+      "description": "Korean item name"
+    },
+    "displayName": {
+      "type": "string",
+      "description": "Display name"
+    },
+    "type": {
+      "type": "number",
+      "description": "Item type"
+    },
+    "category": {
+      "type": "number",
+      "description": "Item category"
+    },
+    "slot": {
+      "type": "string",
+      "description": "Equipment slot"
+    },
+    "level": {
+      "type": "number",
+      "description": "Item level"
+    },
+    "rarity": {
+      "type": "number",
+      "enum": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "description": "Rarity (1=white, 2=green, 3=blue, 4=purple, 5=orange)"
+    },
+    "value": {
+      "type": "number",
+      "description": "Base value/price"
+    },
+    "sellPrice": {
+      "type": "number",
+      "description": "Sell price"
+    },
+    "description": {
+      "type": "string",
+      "description": "Item description"
+    },
+    "stats": {
+      "type": "array",
+      "items": {
+        "type": "number"
+      },
+      "description": "Stat bonuses"
+    },
+    "setId": {
+      "type": "number",
+      "description": "Item set ID"
+    },
+    "weaponType": {
+      "type": "number",
+      "description": "Weapon type"
+    },
+    "gemSlots": {
+      "type": "number",
+      "description": "Number of gem/stone slots"
+    }
+  },
+  "required": [
+    "id",
+    "nameCN",
+    "type",
+    "rarity"
+  ]
+}

@@ -1,0 +1,70 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "https://multiverse.game/schemas/buff.json",
+  "title": "Buff",
+  "description": "Buff/Debuff definition from buff.json",
+  "type": "object",
+  "properties": {
+    "id": {
+      "type": "number",
+      "description": "Buff ID"
+    },
+    "nameCN": {
+      "type": "string",
+      "description": "Chinese buff name"
+    },
+    "nameEN": {
+      "type": "string",
+      "description": "English buff name"
+    },
+    "nameKO": {
+      "type": "string",
+      "description": "Korean buff name"
+    },
+    "displayName": {
+      "type": "string",
+      "description": "Display name"
+    },
+    "icon": {
+      "type": "number",
+      "description": "Icon ID"
+    },
+    "effectValue": {
+      "type": "number",
+      "description": "Effect value/percentage"
+    },
+    "duration": {
+      "type": "number",
+      "description": "Duration value"
+    },
+    "maxStacks": {
+      "type": "number",
+      "description": "Maximum stacks"
+    },
+    "durationType": {
+      "type": "string",
+      "enum": [
+        "回合",
+        "时间"
+      ],
+      "description": "Duration type (Turn/Time)"
+    },
+    "buffType": {
+      "type": "string",
+      "enum": [
+        "增益",
+        "减益"
+      ],
+      "description": "Buff type (Buff/Debuff)"
+    },
+    "description": {
+      "type": "string",
+      "description": "Buff description"
+    }
+  },
+  "required": [
+    "id",
+    "nameCN",
+    "buffType"
+  ]
+}

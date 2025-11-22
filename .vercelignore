@@ -1,0 +1,6 @@
+# Ignore image files when deploying to Vercel
+# Images are served from Cloudflare R2 instead
+public/images/**
+!public/images/*.json
+!public/images/*.md
+

@@ -1,0 +1,54 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "https://multiverse.game/schemas/shop.json",
+  "title": "Shop",
+  "description": "Shop/Counter definition from ss.json",
+  "type": "object",
+  "properties": {
+    "id": {
+      "type": "number",
+      "description": "Counter ID"
+    },
+    "nameCN": {
+      "type": "string",
+      "description": "Chinese counter name"
+    },
+    "nameEN": {
+      "type": "string",
+      "description": "English counter name"
+    },
+    "nameKO": {
+      "type": "string",
+      "description": "Korean counter name"
+    },
+    "displayName": {
+      "type": "string",
+      "description": "Display name"
+    },
+    "icon": {
+      "type": "number",
+      "description": "Icon ID"
+    },
+    "capacity": {
+      "type": "number",
+      "description": "Customer capacity"
+    },
+    "itemSlots": {
+      "type": "number",
+      "description": "Item slot capacity"
+    },
+    "upgradeCost": {
+      "type": "number",
+      "description": "Upgrade cost"
+    },
+    "description": {
+      "type": "string",
+      "description": "Counter description"
+    }
+  },
+  "required": [
+    "id",
+    "nameCN",
+    "capacity"
+  ]
+}

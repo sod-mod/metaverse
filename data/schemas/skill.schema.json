@@ -1,0 +1,70 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "https://multiverse.game/schemas/skill.json",
+  "title": "Skill",
+  "description": "Skill/Ability definition from jn.json",
+  "type": "object",
+  "properties": {
+    "id": {
+      "type": "number",
+      "description": "Skill ID"
+    },
+    "nameCN": {
+      "type": "string",
+      "description": "Chinese skill name"
+    },
+    "nameEN": {
+      "type": "string",
+      "description": "English skill name"
+    },
+    "nameKO": {
+      "type": "string",
+      "description": "Korean skill name"
+    },
+    "displayName": {
+      "type": "string",
+      "description": "Display name"
+    },
+    "type": {
+      "type": "number",
+      "description": "Skill type"
+    },
+    "manaCost": {
+      "type": "number",
+      "description": "Mana/energy cost"
+    },
+    "effectDescription": {
+      "type": "string",
+      "description": "Effect description with formatting"
+    },
+    "skillCategory": {
+      "type": "string",
+      "description": "Category (近战攻击/法术/etc)"
+    },
+    "damageType": {
+      "type": "string",
+      "enum": [
+        "物理",
+        "魔法"
+      ],
+      "description": "Damage type (Physical/Magic)"
+    },
+    "basePower": {
+      "type": "number",
+      "description": "Base power value"
+    },
+    "targetType": {
+      "type": "string",
+      "enum": [
+        "敌方",
+        "我方"
+      ],
+      "description": "Target type (Enemy/Ally)"
+    }
+  },
+  "required": [
+    "id",
+    "nameCN",
+    "type"
+  ]
+}

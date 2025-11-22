@@ -1,0 +1,58 @@
+/* App-specific styles */
+.tooltip {
+  @apply absolute z-50 bg-gray-800 text-white px-3 py-2 rounded-lg shadow-lg border border-gray-700;
+  @apply text-sm;
+  @apply pointer-events-none;
+  @apply opacity-0 transition-opacity duration-200;
+}
+
+.tooltip.show {
+  @apply opacity-100;
+}
+
+.sortable-header {
+  @apply cursor-pointer select-none hover:bg-teal-700;
+  @apply transition-colors duration-150;
+  @apply relative;
+  @apply bg-teal-800;
+  @apply text-teal-100;
+}
+
+.sortable-header:hover::after {
+  content: ' ↕';
+  @apply text-teal-300;
+  @apply inline-block ml-1;
+}
+
+.sortable-header.sorted-asc::after {
+  content: ' ↑';
+  @apply text-yellow-400;
+  @apply inline-block ml-1;
+}
+
+.sortable-header.sorted-desc::after {
+  content: ' ↓';
+  @apply text-yellow-400;
+  @apply inline-block ml-1;
+}
+
+/* Game-like table styling */
+table {
+  @apply shadow-lg;
+}
+
+thead {
+  @apply bg-teal-800;
+}
+
+tbody tr {
+  @apply bg-teal-900 bg-opacity-40;
+  @apply hover:bg-teal-800 hover:bg-opacity-50;
+  @apply transition-colors duration-150;
+}
+
+tbody tr:nth-child(even) {
+  @apply bg-teal-900 bg-opacity-60;
+}
+
+

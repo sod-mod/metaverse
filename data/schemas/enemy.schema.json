@@ -1,0 +1,51 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "https://multiverse.game/schemas/enemy.json",
+  "title": "Enemy",
+  "description": "Enemy/Monster definition from dr.json",
+  "type": "object",
+  "properties": {
+    "id": {
+      "type": "number",
+      "description": "Enemy ID"
+    },
+    "nameCN": {
+      "type": "string",
+      "description": "Chinese enemy name"
+    },
+    "nameEN": {
+      "type": "string",
+      "description": "English enemy name"
+    },
+    "nameKO": {
+      "type": "string",
+      "description": "Korean enemy name"
+    },
+    "level": {
+      "type": "number",
+      "description": "Enemy level"
+    },
+    "type": {
+      "type": "number",
+      "description": "Enemy type"
+    },
+    "rank": {
+      "type": "number",
+      "description": "Enemy rank"
+    },
+    "enemyClass": {
+      "type": "string",
+      "enum": [
+        "小怪",
+        "精英",
+        "Boss"
+      ],
+      "description": "Enemy class (Minion/Elite/Boss)"
+    }
+  },
+  "required": [
+    "id",
+    "nameCN",
+    "level"
+  ]
+}
