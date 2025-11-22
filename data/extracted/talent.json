@@ -1,0 +1,9274 @@
+[
+  {
+    "id": 1,
+    "nameCN": "怒目",
+    "tree": 1,
+    "icon": 0,
+    "unknown": 40,
+    "description": "",
+    "prerequisites": [
+      1,
+      2,
+      2
+    ],
+    "tier": 1,
+    "position": 3,
+    "effectCategory": 12,
+    "grade": 1,
+    "cost": 10,
+    "conditions": [
+      1,
+      2,
+      2,
+      1,
+      3,
+      1
+    ],
+    "effectScale": 6,
+    "effectMaxValue": 100,
+    "nameEN": "Glare"
+  },
+  {
+    "id": 2,
+    "nameCN": "撕裂",
+    "tree": 1,
+    "icon": 0,
+    "unknown": 40,
+    "description": "",
+    "prerequisites": [
+      1,
+      3,
+      1
+    ],
+    "tier": 2,
+    "position": 2,
+    "effectCategory": 13,
+    "grade": 1,
+    "cost": 10,
+    "conditions": [
+      1,
+      3,
+      1,
+      2,
+      2,
+      1
+    ],
+    "effectScale": 40,
+    "effectMaxValue": 5000,
+    "nameEN": "Tear"
+  },
+  {
+    "id": 3,
+    "nameCN": "吸血",
+    "tree": 1,
+    "icon": 0,
+    "unknown": 40,
+    "description": "",
+    "prerequisites": [
+      3,
+      1,
+      2
+    ],
+    "tier": 3,
+    "position": 1,
+    "effectCategory": 14,
+    "grade": 1,
+    "cost": 10,
+    "conditions": [
+      3,
+      1,
+      2,
+      3,
+      1,
+      2
+    ],
+    "effectScale": 3,
+    "effectMaxValue": 300,
+    "nameEN": "Suck"
+  },
+  {
+    "id": 4,
+    "nameCN": "回春",
+    "tree": 1,
+    "icon": 0,
+    "unknown": 40,
+    "description": "高悬壶，济天下！",
+    "prerequisites": [
+      2,
+      3,
+      1
+    ],
+    "tier": 3,
+    "position": 2,
+    "effectCategory": 16,
+    "grade": 1,
+    "cost": 10,
+    "conditions": [
+      2,
+      3,
+      1,
+      3,
+      2,
+      1
+    ],
+    "effectScale": 20,
+    "effectMaxValue": 1500,
+    "nameEN": "Renew"
+  },
+  {
+    "id": 5,
+    "nameCN": "守卫",
+    "tree": 1,
+    "icon": 0,
+    "unknown": 40,
+    "description": "大家的性命救靠我了！",
+    "prerequisites": [
+      2,
+      1,
+      1
+    ],
+    "tier": 2,
+    "position": 2,
+    "effectCategory": 17,
+    "grade": 1,
+    "cost": 10,
+    "conditions": [
+      2,
+      1,
+      1,
+      2,
+      2,
+      3
+    ],
+    "effectScale": 20,
+    "effectMaxValue": 1500,
+    "nameEN": "Sentinel"
+  },
+  {
+    "id": 6,
+    "nameCN": "精准",
+    "tree": 1,
+    "icon": 0,
+    "unknown": 40,
+    "description": "",
+    "prerequisites": [
+      3,
+      1,
+      2
+    ],
+    "tier": 1,
+    "position": 2,
+    "effectCategory": 18,
+    "grade": 1,
+    "cost": 10,
+    "conditions": [
+      3,
+      1,
+      2,
+      1,
+      2,
+      1
+    ],
+    "effectScale": 5,
+    "effectMaxValue": 1000,
+    "nameEN": "Accurate"
+  },
+  {
+    "id": 7,
+    "nameCN": "绝色",
+    "tree": 1,
+    "icon": 0,
+    "unknown": 40,
+    "description": "糟糕，眼花缭乱了！",
+    "prerequisites": [
+      1,
+      3,
+      2
+    ],
+    "tier": 2,
+    "position": 1,
+    "effectCategory": 19,
+    "grade": 1,
+    "cost": 10,
+    "conditions": [
+      1,
+      3,
+      2,
+      2,
+      1,
+      2
+    ],
+    "effectScale": 5,
+    "effectMaxValue": 1000,
+    "nameEN": "Gorgeous"
+  },
+  {
+    "id": 8,
+    "nameCN": "先锋",
+    "tree": 1,
+    "icon": 0,
+    "unknown": 40,
+    "description": "无坚不摧，锋刃且快！",
+    "prerequisites": [
+      3,
+      2,
+      1
+    ],
+    "tier": 1,
+    "position": 1,
+    "effectCategory": 20,
+    "grade": 1,
+    "cost": 10,
+    "conditions": [
+      3,
+      2,
+      1,
+      1,
+      1,
+      2
+    ],
+    "effectScale": 20,
+    "effectMaxValue": 1500,
+    "nameEN": "Pioneer"
+  },
+  {
+    "id": 9,
+    "nameCN": "抗刃",
+    "tree": 1,
+    "icon": 0,
+    "unknown": 40,
+    "description": "皮糙肉厚，刀枪不入！",
+    "prerequisites": [
+      3,
+      1,
+      2
+    ],
+    "tier": 2,
+    "position": 2,
+    "effectCategory": 21,
+    "grade": 1,
+    "cost": 10,
+    "conditions": [
+      3,
+      1,
+      2,
+      2,
+      2,
+      1
+    ],
+    "effectScale": 8,
+    "effectMaxValue": 80,
+    "nameEN": "Bladeproof"
+  },
+  {
+    "id": 10,
+    "nameCN": "法相",
+    "tree": 1,
+    "icon": 0,
+    "unknown": 40,
+    "description": "手掐口诀，言出法随！",
+    "prerequisites": [
+      1,
+      2,
+      1
+    ],
+    "tier": 2,
+    "position": 1,
+    "effectCategory": 22,
+    "grade": 1,
+    "cost": 10,
+    "conditions": [
+      1,
+      2,
+      1,
+      2,
+      1,
+      3
+    ],
+    "effectScale": 20,
+    "effectMaxValue": 1500,
+    "nameEN": "Dharmakaya"
+  },
+  {
+    "id": 11,
+    "nameCN": "灵体",
+    "tree": 1,
+    "icon": 0,
+    "unknown": 40,
+    "description": "隔绝一切灵力！",
+    "prerequisites": [
+      2,
+      1,
+      3
+    ],
+    "tier": 2,
+    "position": 2,
+    "effectCategory": 23,
+    "grade": 1,
+    "cost": 10,
+    "conditions": [
+      2,
+      1,
+      3,
+      2,
+      2,
+      1
+    ],
+    "effectScale": 8,
+    "effectMaxValue": 80,
+    "nameEN": "Ectoplasm"
+  },
+  {
+    "id": 12,
+    "nameCN": "无华",
+    "tree": 1,
+    "icon": 0,
+    "unknown": 40,
+    "description": "简单才是硬道理！",
+    "prerequisites": [
+      3,
+      2,
+      1
+    ],
+    "tier": 1,
+    "position": 2,
+    "effectCategory": 25,
+    "grade": 1,
+    "cost": 10,
+    "conditions": [
+      3,
+      2,
+      1,
+      1,
+      2,
+      1
+    ],
+    "effectScale": 20,
+    "effectMaxValue": 2000,
+    "nameEN": "Simple"
+  },
+  {
+    "id": 13,
+    "nameCN": "终伤",
+    "tree": 1,
+    "icon": 0,
+    "unknown": 40,
+    "description": "",
+    "prerequisites": [
+      3,
+      2,
+      1
+    ],
+    "tier": 1,
+    "position": 1,
+    "effectCategory": 26,
+    "grade": 1,
+    "cost": 10,
+    "conditions": [
+      3,
+      2,
+      1,
+      1,
+      1,
+      2
+    ],
+    "effectScale": 10,
+    "effectMaxValue": 1000,
+    "nameEN": "Finalhit"
+  },
+  {
+    "id": 14,
+    "nameCN": "轻护",
+    "tree": 1,
+    "icon": 0,
+    "unknown": 40,
+    "description": "",
+    "prerequisites": [
+      2,
+      1,
+      2
+    ],
+    "tier": 2,
+    "position": 3,
+    "effectCategory": 27,
+    "grade": 1,
+    "cost": 10,
+    "conditions": [
+      2,
+      1,
+      2,
+      2,
+      3,
+      1
+    ],
+    "effectScale": 4,
+    "effectMaxValue": 80,
+    "nameEN": "Lightguard"
+  },
+  {
+    "id": 15,
+    "nameCN": "商人",
+    "tree": 1,
+    "icon": 0,
+    "unknown": 40,
+    "description": "",
+    "prerequisites": [
+      1,
+      3,
+      2
+    ],
+    "tier": 1,
+    "position": 3,
+    "effectCategory": 30,
+    "grade": 1,
+    "cost": 10,
+    "conditions": [
+      1,
+      3,
+      2,
+      1,
+      3,
+      2
+    ],
+    "effectScale": 20,
+    "effectMaxValue": 1500,
+    "nameEN": "Merchant"
+  },
+  {
+    "id": 16,
+    "nameCN": "通灵",
+    "tree": 1,
+    "icon": 0,
+    "unknown": 40,
+    "description": "",
+    "prerequisites": [
+      3,
+      1,
+      2
+    ],
+    "tier": 1,
+    "position": 3,
+    "effectCategory": 31,
+    "grade": 1,
+    "cost": 10,
+    "conditions": [
+      3,
+      1,
+      2,
+      1,
+      3,
+      2
+    ],
+    "effectScale": 20,
+    "effectMaxValue": 1200,
+    "nameEN": "Spirit"
+  },
+  {
+    "id": 17,
+    "nameCN": "感应",
+    "tree": 1,
+    "icon": 0,
+    "unknown": 40,
+    "description": "",
+    "prerequisites": [
+      2,
+      2,
+      3
+    ],
+    "tier": 1,
+    "position": 3,
+    "effectCategory": 33,
+    "grade": 1,
+    "cost": 10,
+    "conditions": [
+      2,
+      2,
+      3,
+      1,
+      3,
+      1
+    ],
+    "effectScale": 50,
+    "effectMaxValue": 2000,
+    "nameEN": "Sense"
+  },
+  {
+    "id": 18,
+    "nameCN": "宁静",
+    "tree": 1,
+    "icon": 0,
+    "unknown": 40,
+    "description": "让状态更加持久！",
+    "prerequisites": [
+      1,
+      3,
+      1
+    ],
+    "tier": 2,
+    "position": 3,
+    "effectCategory": 34,
+    "grade": 1,
+    "cost": 10,
+    "conditions": [
+      1,
+      3,
+      1,
+      2,
+      3,
+      2
+    ],
+    "effectScale": 50,
+    "effectMaxValue": 2000,
+    "nameEN": "Quiet"
+  },
+  {
+    "id": 19,
+    "nameCN": "缓滞",
+    "tree": 1,
+    "icon": 0,
+    "unknown": 40,
+    "description": "",
+    "prerequisites": [
+      1,
+      3,
+      2
+    ],
+    "tier": 3,
+    "position": 2,
+    "effectCategory": 35,
+    "grade": 1,
+    "cost": 10,
+    "conditions": [
+      1,
+      3,
+      2,
+      3,
+      2,
+      1
+    ],
+    "effectScale": 50,
+    "effectMaxValue": 2000,
+    "nameEN": "Slowdown"
+  },
+  {
+    "id": 20,
+    "nameCN": "幼灵",
+    "tree": 1,
+    "icon": 0,
+    "unknown": 40,
+    "description": "",
+    "prerequisites": [
+      3,
+      1,
+      2
+    ],
+    "tier": 1,
+    "position": 3,
+    "effectCategory": 36,
+    "grade": 1,
+    "cost": 10,
+    "conditions": [
+      3,
+      1,
+      2,
+      1,
+      3,
+      2
+    ],
+    "effectScale": 20,
+    "effectMaxValue": 1500,
+    "nameEN": "Fledgling"
+  },
+  {
+    "id": 21,
+    "nameCN": "瞬息",
+    "tree": 1,
+    "icon": 0,
+    "unknown": 40,
+    "description": "我的CD很快！",
+    "prerequisites": [
+      2,
+      1,
+      1
+    ],
+    "tier": 3,
+    "position": 2,
+    "effectCategory": 37,
+    "grade": 1,
+    "cost": 10,
+    "conditions": [
+      2,
+      1,
+      1,
+      3,
+      2,
+      3
+    ],
+    "effectScale": 10,
+    "effectMaxValue": 95,
+    "nameEN": "Moment"
+  },
+  {
+    "id": 22,
+    "nameCN": "痴汉",
+    "tree": 1,
+    "icon": 0,
+    "unknown": 40,
+    "description": "只要给我加血就好！",
+    "prerequisites": [
+      1,
+      2,
+      3
+    ],
+    "tier": 1,
+    "position": 2,
+    "effectCategory": 38,
+    "grade": 1,
+    "cost": 10,
+    "conditions": [
+      1,
+      2,
+      3,
+      1,
+      2,
+      3
+    ],
+    "effectScale": 20,
+    "effectMaxValue": 2000,
+    "nameEN": "Lustful"
+  },
+  {
+    "id": 23,
+    "nameCN": "研读",
+    "tree": 1,
+    "icon": 0,
+    "unknown": 40,
+    "description": "",
+    "prerequisites": [
+      3,
+      2,
+      1
+    ],
+    "tier": 2,
+    "position": 3,
+    "effectCategory": 39,
+    "grade": 1,
+    "cost": 10,
+    "conditions": [
+      3,
+      2,
+      1,
+      2,
+      3,
+      1
+    ],
+    "effectScale": 20,
+    "effectMaxValue": 1500,
+    "nameEN": "Peruse"
+  },
+  {
+    "id": 24,
+    "nameCN": "收获",
+    "tree": 1,
+    "icon": 0,
+    "unknown": 40,
+    "description": "",
+    "prerequisites": [
+      1,
+      2,
+      3
+    ],
+    "tier": 1,
+    "position": 3,
+    "effectCategory": 40,
+    "grade": 1,
+    "cost": 10,
+    "conditions": [
+      1,
+      2,
+      3,
+      1,
+      3,
+      2
+    ],
+    "effectScale": 20,
+    "effectMaxValue": 1500,
+    "nameEN": "Gain"
+  },
+  {
+    "id": 25,
+    "nameCN": "浅进",
+    "tree": 1,
+    "icon": 0,
+    "unknown": 40,
+    "description": "",
+    "prerequisites": [
+      2,
+      3,
+      3
+    ],
+    "tier": 2,
+    "position": 1,
+    "effectCategory": 41,
+    "grade": 1,
+    "cost": 10,
+    "conditions": [
+      2,
+      3,
+      3,
+      2,
+      1,
+      1
+    ],
+    "effectScale": 20,
+    "effectMaxValue": 1500,
+    "nameEN": "Shallowin"
+  },
+  {
+    "id": 26,
+    "nameCN": "寻宝",
+    "tree": 1,
+    "icon": 0,
+    "unknown": 40,
+    "description": "",
+    "prerequisites": [
+      3,
+      3,
+      1
+    ],
+    "tier": 1,
+    "position": 2,
+    "effectCategory": 42,
+    "grade": 1,
+    "cost": 10,
+    "conditions": [
+      3,
+      3,
+      1,
+      1,
+      2,
+      2
+    ],
+    "effectScale": 5,
+    "effectMaxValue": 1000,
+    "nameEN": "Seektreasure"
+  },
+  {
+    "id": 27,
+    "nameCN": "劳力",
+    "tree": 1,
+    "icon": 0,
+    "unknown": 40,
+    "description": "一届莽夫，蛮力十足！",
+    "prerequisites": [
+      1,
+      2,
+      2
+    ],
+    "tier": 3,
+    "position": 3,
+    "effectCategory": 43,
+    "grade": 1,
+    "cost": 10,
+    "conditions": [
+      1,
+      2,
+      2,
+      3,
+      3,
+      1
+    ],
+    "effectScale": 20,
+    "effectMaxValue": 2000,
+    "nameEN": "Laborer"
+  },
+  {
+    "id": 28,
+    "nameCN": "雷闪",
+    "tree": 1,
+    "icon": 0,
+    "unknown": 40,
+    "description": "",
+    "prerequisites": [
+      3,
+      1,
+      1
+    ],
+    "tier": 1,
+    "position": 2,
+    "effectCategory": 44,
+    "grade": 1,
+    "cost": 10,
+    "conditions": [
+      3,
+      1,
+      1,
+      1,
+      2,
+      2
+    ],
+    "effectScale": 20,
+    "effectMaxValue": 1500,
+    "nameEN": "Thunderbolt"
+  },
+  {
+    "id": 29,
+    "nameCN": "避雷",
+    "tree": 1,
+    "icon": 0,
+    "unknown": 40,
+    "description": "",
+    "prerequisites": [
+      2,
+      1,
+      2
+    ],
+    "tier": 3,
+    "position": 1,
+    "effectCategory": 45,
+    "grade": 1,
+    "cost": 10,
+    "conditions": [
+      2,
+      1,
+      2,
+      3,
+      1,
+      2
+    ],
+    "effectScale": 8,
+    "effectMaxValue": 80,
+    "nameEN": "Lightningproof"
+  },
+  {
+    "id": 30,
+    "nameCN": "水纹",
+    "tree": 1,
+    "icon": 0,
+    "unknown": 40,
+    "description": "",
+    "prerequisites": [
+      2,
+      1,
+      1
+    ],
+    "tier": 2,
+    "position": 1,
+    "effectCategory": 46,
+    "grade": 1,
+    "cost": 10,
+    "conditions": [
+      2,
+      1,
+      1,
+      2,
+      1,
+      3
+    ],
+    "effectScale": 20,
+    "effectMaxValue": 1500,
+    "nameEN": "Ripple"
+  },
+  {
+    "id": 31,
+    "nameCN": "破水",
+    "tree": 1,
+    "icon": 0,
+    "unknown": 40,
+    "description": "",
+    "prerequisites": [
+      1,
+      1,
+      3
+    ],
+    "tier": 2,
+    "position": 2,
+    "effectCategory": 47,
+    "grade": 1,
+    "cost": 10,
+    "conditions": [
+      1,
+      1,
+      3,
+      2,
+      2,
+      2
+    ],
+    "effectScale": 8,
+    "effectMaxValue": 80,
+    "nameEN": "Breakwater"
+  },
+  {
+    "id": 32,
+    "nameCN": "纵火",
+    "tree": 1,
+    "icon": 0,
+    "unknown": 40,
+    "description": "不是，纵火犯！",
+    "prerequisites": [
+      1,
+      2,
+      1
+    ],
+    "tier": 3,
+    "position": 2,
+    "effectCategory": 48,
+    "grade": 1,
+    "cost": 10,
+    "conditions": [
+      1,
+      2,
+      1,
+      3,
+      2,
+      1
+    ],
+    "effectScale": 20,
+    "effectMaxValue": 1500,
+    "nameEN": "Arson"
+  },
+  {
+    "id": 33,
+    "nameCN": "耐火",
+    "tree": 1,
+    "icon": 0,
+    "unknown": 40,
+    "description": "",
+    "prerequisites": [
+      1,
+      2,
+      2
+    ],
+    "tier": 1,
+    "position": 2,
+    "effectCategory": 49,
+    "grade": 1,
+    "cost": 10,
+    "conditions": [
+      1,
+      2,
+      2,
+      1,
+      2,
+      3
+    ],
+    "effectScale": 8,
+    "effectMaxValue": 80,
+    "nameEN": "Fireproof"
+  },
+  {
+    "id": 34,
+    "nameCN": "木芽",
+    "tree": 1,
+    "icon": 0,
+    "unknown": 40,
+    "description": "",
+    "prerequisites": [
+      3,
+      1,
+      1
+    ],
+    "tier": 2,
+    "position": 1,
+    "effectCategory": 50,
+    "grade": 1,
+    "cost": 10,
+    "conditions": [
+      3,
+      1,
+      1,
+      2,
+      1,
+      2
+    ],
+    "effectScale": 20,
+    "effectMaxValue": 1500,
+    "nameEN": "Sprout"
+  },
+  {
+    "id": 35,
+    "nameCN": "御木",
+    "tree": 1,
+    "icon": 0,
+    "unknown": 40,
+    "description": "",
+    "prerequisites": [
+      1,
+      2,
+      2
+    ],
+    "tier": 2,
+    "position": 1,
+    "effectCategory": 51,
+    "grade": 1,
+    "cost": 10,
+    "conditions": [
+      1,
+      2,
+      2,
+      2,
+      1,
+      3
+    ],
+    "effectScale": 8,
+    "effectMaxValue": 80,
+    "nameEN": "Woodward"
+  },
+  {
+    "id": 36,
+    "nameCN": "土砾",
+    "tree": 1,
+    "icon": 0,
+    "unknown": 40,
+    "description": "",
+    "prerequisites": [
+      3,
+      1,
+      2
+    ],
+    "tier": 1,
+    "position": 2,
+    "effectCategory": 52,
+    "grade": 1,
+    "cost": 10,
+    "conditions": [
+      3,
+      1,
+      2,
+      1,
+      2,
+      1
+    ],
+    "effectScale": 20,
+    "effectMaxValue": 1500,
+    "nameEN": "Gravel"
+  },
+  {
+    "id": 37,
+    "nameCN": "固土",
+    "tree": 1,
+    "icon": 0,
+    "unknown": 40,
+    "description": "",
+    "prerequisites": [
+      1,
+      2,
+      2
+    ],
+    "tier": 3,
+    "position": 2,
+    "effectCategory": 53,
+    "grade": 1,
+    "cost": 10,
+    "conditions": [
+      1,
+      2,
+      2,
+      3,
+      2,
+      1
+    ],
+    "effectScale": 8,
+    "effectMaxValue": 80,
+    "nameEN": "Soilfix"
+  },
+  {
+    "id": 38,
+    "nameCN": "灵扰",
+    "tree": 1,
+    "icon": 0,
+    "unknown": 40,
+    "description": "",
+    "prerequisites": [
+      2,
+      1,
+      1
+    ],
+    "tier": 2,
+    "position": 1,
+    "effectCategory": 54,
+    "grade": 1,
+    "cost": 10,
+    "conditions": [
+      2,
+      1,
+      1,
+      2,
+      1,
+      3
+    ],
+    "effectScale": 20,
+    "effectMaxValue": 1500,
+    "nameEN": "Spiritdisturb"
+  },
+  {
+    "id": 39,
+    "nameCN": "守心",
+    "tree": 1,
+    "icon": 0,
+    "unknown": 40,
+    "description": "",
+    "prerequisites": [
+      2,
+      2,
+      1
+    ],
+    "tier": 3,
+    "position": 1,
+    "effectCategory": 55,
+    "grade": 1,
+    "cost": 10,
+    "conditions": [
+      2,
+      2,
+      1,
+      3,
+      1,
+      2
+    ],
+    "effectScale": 8,
+    "effectMaxValue": 80,
+    "nameEN": "Mindguard"
+  },
+  {
+    "id": 40,
+    "nameCN": "圣辉",
+    "tree": 1,
+    "icon": 0,
+    "unknown": 40,
+    "description": "",
+    "prerequisites": [
+      1,
+      2,
+      1
+    ],
+    "tier": 1,
+    "position": 2,
+    "effectCategory": 56,
+    "grade": 1,
+    "cost": 10,
+    "conditions": [
+      1,
+      2,
+      1,
+      1,
+      2,
+      3
+    ],
+    "effectScale": 20,
+    "effectMaxValue": 1500,
+    "nameEN": "Holyglow"
+  },
+  {
+    "id": 41,
+    "nameCN": "圣御",
+    "tree": 1,
+    "icon": 0,
+    "unknown": 40,
+    "description": "",
+    "prerequisites": [
+      3,
+      1,
+      2
+    ],
+    "tier": 1,
+    "position": 2,
+    "effectCategory": 57,
+    "grade": 1,
+    "cost": 10,
+    "conditions": [
+      3,
+      1,
+      2,
+      1,
+      2,
+      2
+    ],
+    "effectScale": 8,
+    "effectMaxValue": 80,
+    "nameEN": "Holydefend"
+  },
+  {
+    "id": 42,
+    "nameCN": "暗影",
+    "tree": 1,
+    "icon": 0,
+    "unknown": 40,
+    "description": "",
+    "prerequisites": [
+      1,
+      2,
+      2
+    ],
+    "tier": 1,
+    "position": 3,
+    "effectCategory": 58,
+    "grade": 1,
+    "cost": 10,
+    "conditions": [
+      1,
+      2,
+      2,
+      1,
+      3,
+      1
+    ],
+    "effectScale": 20,
+    "effectMaxValue": 1500,
+    "nameEN": "Shadow"
+  },
+  {
+    "id": 43,
+    "nameCN": "暗御",
+    "tree": 1,
+    "icon": 0,
+    "unknown": 40,
+    "description": "",
+    "prerequisites": [
+      2,
+      3,
+      1
+    ],
+    "tier": 2,
+    "position": 2,
+    "effectCategory": 59,
+    "grade": 1,
+    "cost": 10,
+    "conditions": [
+      2,
+      3,
+      1,
+      2,
+      2,
+      1
+    ],
+    "effectScale": 8,
+    "effectMaxValue": 80,
+    "nameEN": "Darkdefense"
+  },
+  {
+    "id": 44,
+    "nameCN": "初通",
+    "tree": 1,
+    "icon": 0,
+    "unknown": 40,
+    "description": "",
+    "prerequisites": [
+      3,
+      1,
+      2
+    ],
+    "tier": 1,
+    "position": 1,
+    "effectCategory": 60,
+    "grade": 1,
+    "cost": 10,
+    "conditions": [
+      3,
+      1,
+      2,
+      1,
+      1,
+      2
+    ],
+    "effectScale": 25,
+    "effectMaxValue": 1500,
+    "nameEN": "Beginner"
+  },
+  {
+    "id": 45,
+    "nameCN": "戟士",
+    "tree": 1,
+    "icon": 0,
+    "unknown": 40,
+    "description": "",
+    "prerequisites": [
+      2,
+      3,
+      1
+    ],
+    "tier": 1,
+    "position": 2,
+    "effectCategory": 61,
+    "grade": 1,
+    "cost": 10,
+    "conditions": [
+      2,
+      3,
+      1,
+      1,
+      2,
+      1
+    ],
+    "effectScale": 25,
+    "effectMaxValue": 1500,
+    "nameEN": "Halberdier"
+  },
+  {
+    "id": 46,
+    "nameCN": "武徒",
+    "tree": 1,
+    "icon": 0,
+    "unknown": 40,
+    "description": "",
+    "prerequisites": [
+      2,
+      1,
+      1
+    ],
+    "tier": 1,
+    "position": 2,
+    "effectCategory": 62,
+    "grade": 1,
+    "cost": 10,
+    "conditions": [
+      2,
+      1,
+      1,
+      1,
+      2,
+      3
+    ],
+    "effectScale": 25,
+    "effectMaxValue": 1500,
+    "nameEN": "Martialapprentice"
+  },
+  {
+    "id": 47,
+    "nameCN": "符者",
+    "tree": 1,
+    "icon": 0,
+    "unknown": 40,
+    "description": "鬼画符，人亦会画！",
+    "prerequisites": [
+      3,
+      1,
+      2
+    ],
+    "tier": 1,
+    "position": 2,
+    "effectCategory": 63,
+    "grade": 1,
+    "cost": 10,
+    "conditions": [
+      3,
+      1,
+      2,
+      1,
+      2,
+      1
+    ],
+    "effectScale": 25,
+    "effectMaxValue": 1500,
+    "nameEN": "Runeuser"
+  },
+  {
+    "id": 48,
+    "nameCN": "矢风",
+    "tree": 1,
+    "icon": 0,
+    "unknown": 40,
+    "description": "",
+    "prerequisites": [
+      1,
+      3,
+      2
+    ],
+    "tier": 1,
+    "position": 1,
+    "effectCategory": 64,
+    "grade": 1,
+    "cost": 10,
+    "conditions": [
+      1,
+      3,
+      2,
+      1,
+      1,
+      2
+    ],
+    "effectScale": 25,
+    "effectMaxValue": 1500,
+    "nameEN": "Arrowwind"
+  },
+  {
+    "id": 49,
+    "nameCN": "术方",
+    "tree": 1,
+    "icon": 0,
+    "unknown": 40,
+    "description": "",
+    "prerequisites": [
+      3,
+      2,
+      1
+    ],
+    "tier": 1,
+    "position": 1,
+    "effectCategory": 65,
+    "grade": 1,
+    "cost": 10,
+    "conditions": [
+      3,
+      2,
+      1,
+      1,
+      1,
+      2
+    ],
+    "effectScale": 25,
+    "effectMaxValue": 1500,
+    "nameEN": "Artformula"
+  },
+  {
+    "id": 50,
+    "nameCN": "变异",
+    "tree": 1,
+    "icon": 0,
+    "unknown": 40,
+    "description": "",
+    "prerequisites": [
+      3,
+      1,
+      2
+    ],
+    "tier": 2,
+    "position": 1,
+    "effectCategory": 66,
+    "grade": 1,
+    "cost": 10,
+    "conditions": [
+      3,
+      1,
+      2,
+      2,
+      1,
+      1
+    ],
+    "effectScale": 25,
+    "effectMaxValue": 1500,
+    "nameEN": "Metamorph"
+  },
+  {
+    "id": 51,
+    "nameCN": "神迹",
+    "tree": 1,
+    "icon": 0,
+    "unknown": 40,
+    "description": "",
+    "prerequisites": [
+      1,
+      2,
+      1
+    ],
+    "tier": 2,
+    "position": 1,
+    "effectCategory": 67,
+    "grade": 1,
+    "cost": 10,
+    "conditions": [
+      1,
+      2,
+      1,
+      2,
+      1,
+      3
+    ],
+    "effectScale": 25,
+    "effectMaxValue": 1500,
+    "nameEN": "Miracle"
+  },
+  {
+    "id": 52,
+    "nameCN": "斗者",
+    "tree": 1,
+    "icon": 0,
+    "unknown": 40,
+    "description": "",
+    "prerequisites": [
+      2,
+      1,
+      3
+    ],
+    "tier": 1,
+    "position": 2,
+    "effectCategory": 68,
+    "grade": 1,
+    "cost": 10,
+    "conditions": [
+      2,
+      1,
+      3,
+      1,
+      2,
+      1
+    ],
+    "effectScale": 25,
+    "effectMaxValue": 1500,
+    "nameEN": "Qi Warrior"
+  },
+  {
+    "id": 53,
+    "nameCN": "下忍",
+    "tree": 1,
+    "icon": 0,
+    "unknown": 40,
+    "description": "",
+    "prerequisites": [
+      3,
+      2,
+      1
+    ],
+    "tier": 1,
+    "position": 2,
+    "effectCategory": 69,
+    "grade": 1,
+    "cost": 10,
+    "conditions": [
+      3,
+      2,
+      1,
+      1,
+      2,
+      1
+    ],
+    "effectScale": 25,
+    "effectMaxValue": 1500,
+    "nameEN": "Genin"
+  },
+  {
+    "id": 54,
+    "nameCN": "学徒",
+    "tree": 1,
+    "icon": 0,
+    "unknown": 40,
+    "description": "",
+    "prerequisites": [
+      3,
+      2,
+      1
+    ],
+    "tier": 1,
+    "position": 1,
+    "effectCategory": 70,
+    "grade": 1,
+    "cost": 10,
+    "conditions": [
+      3,
+      2,
+      1,
+      1,
+      1,
+      2
+    ],
+    "effectScale": 25,
+    "effectMaxValue": 1500,
+    "nameEN": "Apprentice"
+  },
+  {
+    "id": 55,
+    "nameCN": "初窥",
+    "tree": 1,
+    "icon": 0,
+    "unknown": 40,
+    "description": "",
+    "prerequisites": [
+      2,
+      1,
+      2
+    ],
+    "tier": 1,
+    "position": 3,
+    "effectCategory": 71,
+    "grade": 1,
+    "cost": 10,
+    "conditions": [
+      2,
+      1,
+      2,
+      1,
+      3,
+      1
+    ],
+    "effectScale": 25,
+    "effectMaxValue": 1500,
+    "nameEN": "Peek"
+  },
+  {
+    "id": 56,
+    "nameCN": "瞄准",
+    "tree": 1,
+    "icon": 0,
+    "unknown": 40,
+    "description": "",
+    "prerequisites": [
+      1,
+      3,
+      2
+    ],
+    "tier": 1,
+    "position": 1,
+    "effectCategory": 72,
+    "grade": 1,
+    "cost": 10,
+    "conditions": [
+      1,
+      3,
+      2,
+      1,
+      1,
+      2
+    ],
+    "effectScale": 25,
+    "effectMaxValue": 1500,
+    "nameEN": "Aim"
+  },
+  {
+    "id": 57,
+    "nameCN": "驾驶",
+    "tree": 1,
+    "icon": 0,
+    "unknown": 40,
+    "description": "",
+    "prerequisites": [
+      3,
+      1,
+      2
+    ],
+    "tier": 1,
+    "position": 1,
+    "effectCategory": 73,
+    "grade": 1,
+    "cost": 10,
+    "conditions": [
+      3,
+      1,
+      2,
+      1,
+      1,
+      2
+    ],
+    "effectScale": 25,
+    "effectMaxValue": 1500,
+    "nameEN": "Drive"
+  },
+  {
+    "id": 58,
+    "nameCN": "唤灵",
+    "tree": 1,
+    "icon": 0,
+    "unknown": 40,
+    "description": "",
+    "prerequisites": [
+      2,
+      2,
+      1
+    ],
+    "tier": 1,
+    "position": 3,
+    "effectCategory": 74,
+    "grade": 1,
+    "cost": 10,
+    "conditions": [
+      2,
+      2,
+      1,
+      1,
+      3,
+      1
+    ],
+    "effectScale": 25,
+    "effectMaxValue": 1500,
+    "nameEN": "Summon"
+  },
+  {
+    "id": 59,
+    "nameCN": "医者",
+    "tree": 1,
+    "icon": 0,
+    "unknown": 40,
+    "description": "妙手方可回春！",
+    "prerequisites": [
+      1,
+      1,
+      1
+    ],
+    "tier": 2,
+    "position": 3,
+    "effectCategory": 75,
+    "grade": 1,
+    "cost": 10,
+    "conditions": [
+      1,
+      1,
+      1,
+      2,
+      3,
+      2
+    ],
+    "effectScale": 25,
+    "effectMaxValue": 1500,
+    "nameEN": "Doctor"
+  },
+  {
+    "id": 60,
+    "nameCN": "剑影",
+    "tree": 1,
+    "icon": 0,
+    "unknown": 40,
+    "description": "",
+    "prerequisites": [
+      1,
+      1,
+      2
+    ],
+    "tier": 3,
+    "position": 2,
+    "effectCategory": 93,
+    "grade": 1,
+    "cost": 10,
+    "conditions": [
+      1,
+      1,
+      2,
+      3,
+      2,
+      1
+    ],
+    "effectScale": 25,
+    "effectMaxValue": 1500,
+    "nameEN": "Swordshadow"
+  },
+  {
+    "id": 61,
+    "nameCN": "长枪",
+    "tree": 1,
+    "icon": 0,
+    "unknown": 40,
+    "description": "",
+    "prerequisites": [
+      3,
+      1,
+      2
+    ],
+    "tier": 1,
+    "position": 1,
+    "effectCategory": 92,
+    "grade": 1,
+    "cost": 10,
+    "conditions": [
+      3,
+      1,
+      2,
+      1,
+      1,
+      2
+    ],
+    "effectScale": 25,
+    "effectMaxValue": 1500,
+    "nameEN": "Long Spear"
+  },
+  {
+    "id": 62,
+    "nameCN": "墨印",
+    "tree": 1,
+    "icon": 0,
+    "unknown": 40,
+    "description": "",
+    "prerequisites": [
+      2,
+      1,
+      1
+    ],
+    "tier": 1,
+    "position": 2,
+    "effectCategory": 100,
+    "grade": 1,
+    "cost": 10,
+    "conditions": [
+      2,
+      1,
+      1,
+      1,
+      2,
+      3
+    ],
+    "effectScale": 25,
+    "effectMaxValue": 1500,
+    "nameEN": "Inkprint"
+  },
+  {
+    "id": 63,
+    "nameCN": "持杖",
+    "tree": 1,
+    "icon": 0,
+    "unknown": 40,
+    "description": "",
+    "prerequisites": [
+      1,
+      2,
+      3
+    ],
+    "tier": 1,
+    "position": 2,
+    "effectCategory": 96,
+    "grade": 1,
+    "cost": 10,
+    "conditions": [
+      1,
+      2,
+      3,
+      1,
+      2,
+      1
+    ],
+    "effectScale": 25,
+    "effectMaxValue": 1500,
+    "nameEN": "Staffholder"
+  },
+  {
+    "id": 64,
+    "nameCN": "射击",
+    "tree": 1,
+    "icon": 0,
+    "unknown": 40,
+    "description": "善使弩，毙敌命！",
+    "prerequisites": [
+      3,
+      2,
+      1
+    ],
+    "tier": 2,
+    "position": 1,
+    "effectCategory": 98,
+    "grade": 1,
+    "cost": 10,
+    "conditions": [
+      3,
+      2,
+      1,
+      2,
+      1,
+      1
+    ],
+    "effectScale": 25,
+    "effectMaxValue": 1500,
+    "nameEN": "Shoot"
+  },
+  {
+    "id": 65,
+    "nameCN": "炮手",
+    "tree": 1,
+    "icon": 0,
+    "unknown": 40,
+    "description": "",
+    "prerequisites": [
+      1,
+      2,
+      1
+    ],
+    "tier": 1,
+    "position": 3,
+    "effectCategory": 99,
+    "grade": 1,
+    "cost": 10,
+    "conditions": [
+      1,
+      2,
+      1,
+      1,
+      3,
+      2
+    ],
+    "effectScale": 25,
+    "effectMaxValue": 1500,
+    "nameEN": "Gunner"
+  },
+  {
+    "id": 66,
+    "nameCN": "拳风",
+    "tree": 1,
+    "icon": 0,
+    "unknown": 40,
+    "description": "",
+    "prerequisites": [
+      2,
+      1,
+      3
+    ],
+    "tier": 2,
+    "position": 1,
+    "effectCategory": 94,
+    "grade": 1,
+    "cost": 10,
+    "conditions": [
+      2,
+      1,
+      3,
+      2,
+      1,
+      1
+    ],
+    "effectScale": 25,
+    "effectMaxValue": 1500,
+    "nameEN": "Fistwind"
+  },
+  {
+    "id": 67,
+    "nameCN": "影子",
+    "tree": 1,
+    "icon": 0,
+    "unknown": 40,
+    "description": "",
+    "prerequisites": [
+      3,
+      1,
+      1
+    ],
+    "tier": 1,
+    "position": 2,
+    "effectCategory": 95,
+    "grade": 1,
+    "cost": 10,
+    "conditions": [
+      3,
+      1,
+      1,
+      1,
+      2,
+      2
+    ],
+    "effectScale": 25,
+    "effectMaxValue": 1500,
+    "nameEN": "Shadow"
+  },
+  {
+    "id": 68,
+    "nameCN": "聚光",
+    "tree": 1,
+    "icon": 0,
+    "unknown": 40,
+    "description": "",
+    "prerequisites": [
+      1,
+      2,
+      2
+    ],
+    "tier": 1,
+    "position": 3,
+    "effectCategory": 97,
+    "grade": 1,
+    "cost": 10,
+    "conditions": [
+      1,
+      2,
+      2,
+      1,
+      3,
+      1
+    ],
+    "effectScale": 25,
+    "effectMaxValue": 1500,
+    "nameEN": "Condense"
+  },
+  {
+    "id": 69,
+    "nameCN": "器灵",
+    "tree": 1,
+    "icon": 0,
+    "unknown": 40,
+    "description": "",
+    "prerequisites": [
+      3,
+      1,
+      1
+    ],
+    "tier": 1,
+    "position": 2,
+    "effectCategory": 101,
+    "grade": 1,
+    "cost": 10,
+    "conditions": [
+      3,
+      1,
+      1,
+      1,
+      2,
+      2
+    ],
+    "effectScale": 25,
+    "effectMaxValue": 1500,
+    "nameEN": "Artifactspirit"
+  },
+  {
+    "id": 70,
+    "nameCN": "沟通",
+    "tree": 1,
+    "icon": 0,
+    "unknown": 40,
+    "description": "",
+    "prerequisites": [
+      3,
+      1,
+      2
+    ],
+    "tier": 3,
+    "position": 1,
+    "effectCategory": 137,
+    "grade": 1,
+    "cost": 10,
+    "conditions": [
+      3,
+      1,
+      2,
+      3,
+      1,
+      2
+    ],
+    "effectScale": 25,
+    "effectMaxValue": 2500,
+    "nameEN": "Communicate"
+  },
+  {
+    "id": 71,
+    "nameCN": "内助",
+    "tree": 1,
+    "icon": 0,
+    "unknown": 40,
+    "description": "管理一把好手！",
+    "prerequisites": [
+      2,
+      1,
+      1
+    ],
+    "tier": 2,
+    "position": 3,
+    "effectCategory": 138,
+    "grade": 1,
+    "cost": 10,
+    "conditions": [
+      2,
+      1,
+      1,
+      2,
+      3,
+      3
+    ],
+    "effectScale": 25,
+    "effectMaxValue": 2500,
+    "nameEN": "Assistant"
+  },
+  {
+    "id": 72,
+    "nameCN": "铁匠",
+    "tree": 1,
+    "icon": 0,
+    "unknown": 40,
+    "description": "",
+    "prerequisites": [
+      3,
+      1,
+      3
+    ],
+    "tier": 2,
+    "position": 2,
+    "effectCategory": 139,
+    "grade": 1,
+    "cost": 10,
+    "conditions": [
+      3,
+      1,
+      3,
+      2,
+      2,
+      1
+    ],
+    "effectScale": 25,
+    "effectMaxValue": 2500,
+    "nameEN": "Smith"
+  },
+  {
+    "id": 73,
+    "nameCN": "修士",
+    "tree": 1,
+    "icon": 0,
+    "unknown": 40,
+    "description": "",
+    "prerequisites": [
+      1,
+      2,
+      1
+    ],
+    "tier": 3,
+    "position": 2,
+    "effectCategory": 140,
+    "grade": 1,
+    "cost": 10,
+    "conditions": [
+      1,
+      2,
+      1,
+      3,
+      2,
+      3
+    ],
+    "effectScale": 25,
+    "effectMaxValue": 2500,
+    "nameEN": "Cultivator"
+  },
+  {
+    "id": 74,
+    "nameCN": "学者",
+    "tree": 1,
+    "icon": 0,
+    "unknown": 40,
+    "description": "读书破万卷，然后搞科研！",
+    "prerequisites": [
+      1,
+      2,
+      2
+    ],
+    "tier": 1,
+    "position": 3,
+    "effectCategory": 141,
+    "grade": 1,
+    "cost": 10,
+    "conditions": [
+      1,
+      2,
+      2,
+      1,
+      3,
+      3
+    ],
+    "effectScale": 25,
+    "effectMaxValue": 2500,
+    "nameEN": "Scholar"
+  },
+  {
+    "id": 75,
+    "nameCN": "搬砖",
+    "tree": 1,
+    "icon": 0,
+    "unknown": 40,
+    "description": "",
+    "prerequisites": [
+      3,
+      3,
+      1
+    ],
+    "tier": 2,
+    "position": 1,
+    "effectCategory": 142,
+    "grade": 1,
+    "cost": 10,
+    "conditions": [
+      3,
+      3,
+      1,
+      2,
+      1,
+      2
+    ],
+    "effectScale": 25,
+    "effectMaxValue": 2500,
+    "nameEN": "Brickcarry"
+  },
+  {
+    "id": 76,
+    "nameCN": "佳人",
+    "tree": 1,
+    "icon": 0,
+    "unknown": 40,
+    "description": "长得漂亮，适合做销售！",
+    "prerequisites": [
+      1,
+      2,
+      1
+    ],
+    "tier": 2,
+    "position": 3,
+    "effectCategory": 143,
+    "grade": 1,
+    "cost": 10,
+    "conditions": [
+      1,
+      2,
+      1,
+      2,
+      3,
+      3
+    ],
+    "effectScale": 25,
+    "effectMaxValue": 2500,
+    "nameEN": "Beauty"
+  },
+  {
+    "id": 77,
+    "nameCN": "融合",
+    "tree": 1,
+    "icon": 0,
+    "unknown": 40,
+    "description": "",
+    "prerequisites": [
+      3,
+      1,
+      2
+    ],
+    "tier": 3,
+    "position": 2,
+    "effectCategory": 144,
+    "grade": 1,
+    "cost": 10,
+    "conditions": [
+      3,
+      1,
+      2,
+      3,
+      2,
+      1
+    ],
+    "effectScale": 25,
+    "effectMaxValue": 2500,
+    "nameEN": "Merge"
+  },
+  {
+    "id": 78,
+    "nameCN": "参谋",
+    "tree": 1,
+    "icon": 0,
+    "unknown": 40,
+    "description": "",
+    "prerequisites": [
+      3,
+      2,
+      1
+    ],
+    "tier": 3,
+    "position": 2,
+    "effectCategory": 145,
+    "grade": 1,
+    "cost": 10,
+    "conditions": [
+      3,
+      2,
+      1,
+      3,
+      2,
+      1
+    ],
+    "effectScale": 25,
+    "effectMaxValue": 2500,
+    "nameEN": "Adviser"
+  },
+  {
+    "id": 79,
+    "nameCN": "藏家",
+    "tree": 1,
+    "icon": 0,
+    "unknown": 40,
+    "description": "",
+    "prerequisites": [
+      2,
+      1,
+      1
+    ],
+    "tier": 2,
+    "position": 3,
+    "effectCategory": 146,
+    "grade": 1,
+    "cost": 10,
+    "conditions": [
+      2,
+      1,
+      1,
+      2,
+      3,
+      3
+    ],
+    "effectScale": 25,
+    "effectMaxValue": 2500,
+    "nameEN": "Collector"
+  },
+  {
+    "id": 80,
+    "nameCN": "鹰眼",
+    "tree": 2,
+    "icon": 0,
+    "unknown": 60,
+    "description": "弱点无处遁形！",
+    "prerequisites": [
+      2,
+      1,
+      1
+    ],
+    "tier": 3,
+    "position": 1,
+    "effectCategory": 12,
+    "grade": 2,
+    "cost": 40,
+    "conditions": [
+      2,
+      1,
+      1,
+      3,
+      1,
+      4
+    ],
+    "effectScale": 6,
+    "effectMaxValue": 100,
+    "nameEN": "Eagleeye"
+  },
+  {
+    "id": 81,
+    "nameCN": "重击",
+    "tree": 2,
+    "icon": 0,
+    "unknown": 60,
+    "description": "",
+    "prerequisites": [
+      1,
+      2,
+      1
+    ],
+    "tier": 1,
+    "position": 4,
+    "effectCategory": 13,
+    "grade": 2,
+    "cost": 40,
+    "conditions": [
+      1,
+      2,
+      1,
+      1,
+      4,
+      3
+    ],
+    "effectScale": 40,
+    "effectMaxValue": 5000,
+    "nameEN": "Heavyhit"
+  },
+  {
+    "id": 82,
+    "nameCN": "汲血",
+    "tree": 2,
+    "icon": 0,
+    "unknown": 60,
+    "description": "就好这一口！",
+    "prerequisites": [
+      3,
+      1,
+      2
+    ],
+    "tier": 3,
+    "position": 4,
+    "effectCategory": 14,
+    "grade": 2,
+    "cost": 40,
+    "conditions": [
+      3,
+      1,
+      2,
+      3,
+      4,
+      2
+    ],
+    "effectScale": 3,
+    "effectMaxValue": 300,
+    "nameEN": "Suckblood"
+  },
+  {
+    "id": 83,
+    "nameCN": "妙手",
+    "tree": 2,
+    "icon": 0,
+    "unknown": 60,
+    "description": "",
+    "prerequisites": [
+      4,
+      3,
+      1
+    ],
+    "tier": 2,
+    "position": 2,
+    "effectCategory": 16,
+    "grade": 2,
+    "cost": 40,
+    "conditions": [
+      4,
+      3,
+      1,
+      2,
+      2,
+      3
+    ],
+    "effectScale": 20,
+    "effectMaxValue": 1500,
+    "nameEN": "Skillful"
+  },
+  {
+    "id": 84,
+    "nameCN": "护卫",
+    "tree": 2,
+    "icon": 0,
+    "unknown": 60,
+    "description": "",
+    "prerequisites": [
+      2,
+      1,
+      2
+    ],
+    "tier": 2,
+    "position": 4,
+    "effectCategory": 17,
+    "grade": 2,
+    "cost": 40,
+    "conditions": [
+      2,
+      1,
+      2,
+      2,
+      4,
+      3
+    ],
+    "effectScale": 20,
+    "effectMaxValue": 1500,
+    "nameEN": "Guardian"
+  },
+  {
+    "id": 85,
+    "nameCN": "鹰视",
+    "tree": 2,
+    "icon": 0,
+    "unknown": 60,
+    "description": "百发百中！",
+    "prerequisites": [
+      3,
+      1,
+      4
+    ],
+    "tier": 1,
+    "position": 2,
+    "effectCategory": 18,
+    "grade": 2,
+    "cost": 40,
+    "conditions": [
+      3,
+      1,
+      4,
+      1,
+      2,
+      1
+    ],
+    "effectScale": 5,
+    "effectMaxValue": 1000,
+    "nameEN": "Eaglesight"
+  },
+  {
+    "id": 86,
+    "nameCN": "洛神",
+    "tree": 2,
+    "icon": 0,
+    "unknown": 60,
+    "description": "不忍心下手！",
+    "prerequisites": [
+      2,
+      3,
+      2
+    ],
+    "tier": 2,
+    "position": 1,
+    "effectCategory": 19,
+    "grade": 2,
+    "cost": 40,
+    "conditions": [
+      2,
+      3,
+      2,
+      2,
+      1,
+      4
+    ],
+    "effectScale": 5,
+    "effectMaxValue": 1000,
+    "nameEN": "Goddess"
+  },
+  {
+    "id": 87,
+    "nameCN": "将军",
+    "tree": 2,
+    "icon": 0,
+    "unknown": 60,
+    "description": "万军丛中取敌首级！",
+    "prerequisites": [
+      3,
+      4,
+      1
+    ],
+    "tier": 1,
+    "position": 1,
+    "effectCategory": 20,
+    "grade": 2,
+    "cost": 40,
+    "conditions": [
+      3,
+      4,
+      1,
+      1,
+      1,
+      2
+    ],
+    "effectScale": 20,
+    "effectMaxValue": 1500,
+    "nameEN": "General"
+  },
+  {
+    "id": 88,
+    "nameCN": "抵锋",
+    "tree": 2,
+    "icon": 0,
+    "unknown": 60,
+    "description": "",
+    "prerequisites": [
+      3,
+      2,
+      2
+    ],
+    "tier": 4,
+    "position": 1,
+    "effectCategory": 21,
+    "grade": 2,
+    "cost": 40,
+    "conditions": [
+      3,
+      2,
+      2,
+      4,
+      1,
+      2
+    ],
+    "effectScale": 8,
+    "effectMaxValue": 80,
+    "nameEN": "Withstand"
+  },
+  {
+    "id": 89,
+    "nameCN": "法师",
+    "tree": 2,
+    "icon": 0,
+    "unknown": 60,
+    "description": "",
+    "prerequisites": [
+      1,
+      2,
+      1
+    ],
+    "tier": 4,
+    "position": 1,
+    "effectCategory": 22,
+    "grade": 2,
+    "cost": 40,
+    "conditions": [
+      1,
+      2,
+      1,
+      4,
+      1,
+      3
+    ],
+    "effectScale": 20,
+    "effectMaxValue": 1500,
+    "nameEN": "Mage"
+  },
+  {
+    "id": 90,
+    "nameCN": "抗魔",
+    "tree": 2,
+    "icon": 0,
+    "unknown": 60,
+    "description": "",
+    "prerequisites": [
+      4,
+      2,
+      3
+    ],
+    "tier": 2,
+    "position": 2,
+    "effectCategory": 23,
+    "grade": 2,
+    "cost": 40,
+    "conditions": [
+      4,
+      2,
+      3,
+      2,
+      2,
+      1
+    ],
+    "effectScale": 8,
+    "effectMaxValue": 80,
+    "nameEN": "Antimagic"
+  },
+  {
+    "id": 91,
+    "nameCN": "破风",
+    "tree": 2,
+    "icon": 0,
+    "unknown": 60,
+    "description": "",
+    "prerequisites": [
+      3,
+      4,
+      1
+    ],
+    "tier": 1,
+    "position": 2,
+    "effectCategory": 25,
+    "grade": 2,
+    "cost": 40,
+    "conditions": [
+      3,
+      4,
+      1,
+      1,
+      2,
+      1
+    ],
+    "effectScale": 20,
+    "effectMaxValue": 2000,
+    "nameEN": "Breakwind"
+  },
+  {
+    "id": 92,
+    "nameCN": "耀芒",
+    "tree": 2,
+    "icon": 0,
+    "unknown": 60,
+    "description": "",
+    "prerequisites": [
+      3,
+      2,
+      1
+    ],
+    "tier": 1,
+    "position": 1,
+    "effectCategory": 26,
+    "grade": 2,
+    "cost": 40,
+    "conditions": [
+      3,
+      2,
+      1,
+      1,
+      1,
+      4
+    ],
+    "effectScale": 10,
+    "effectMaxValue": 1000,
+    "nameEN": "Shining"
+  },
+  {
+    "id": 93,
+    "nameCN": "韧守",
+    "tree": 2,
+    "icon": 0,
+    "unknown": 60,
+    "description": "",
+    "prerequisites": [
+      2,
+      2,
+      4
+    ],
+    "tier": 1,
+    "position": 3,
+    "effectCategory": 27,
+    "grade": 2,
+    "cost": 40,
+    "conditions": [
+      2,
+      2,
+      4,
+      1,
+      3,
+      2
+    ],
+    "effectScale": 4,
+    "effectMaxValue": 80,
+    "nameEN": "Toughdefense"
+  },
+  {
+    "id": 94,
+    "nameCN": "幻光",
+    "tree": 2,
+    "icon": 0,
+    "unknown": 60,
+    "description": "",
+    "prerequisites": [
+      1,
+      3,
+      4
+    ],
+    "tier": 2,
+    "position": 3,
+    "effectCategory": 30,
+    "grade": 2,
+    "cost": 40,
+    "conditions": [
+      1,
+      3,
+      4,
+      2,
+      3,
+      2
+    ],
+    "effectScale": 20,
+    "effectMaxValue": 1500,
+    "nameEN": "Mirage"
+  },
+  {
+    "id": 95,
+    "nameCN": "契约",
+    "tree": 2,
+    "icon": 0,
+    "unknown": 60,
+    "description": "",
+    "prerequisites": [
+      3,
+      3,
+      2
+    ],
+    "tier": 1,
+    "position": 2,
+    "effectCategory": 31,
+    "grade": 2,
+    "cost": 40,
+    "conditions": [
+      3,
+      3,
+      2,
+      1,
+      2,
+      4
+    ],
+    "effectScale": 20,
+    "effectMaxValue": 1200,
+    "nameEN": "Contract"
+  },
+  {
+    "id": 96,
+    "nameCN": "灵觉",
+    "tree": 2,
+    "icon": 0,
+    "unknown": 60,
+    "description": "",
+    "prerequisites": [
+      2,
+      4,
+      2
+    ],
+    "tier": 1,
+    "position": 3,
+    "effectCategory": 33,
+    "grade": 2,
+    "cost": 40,
+    "conditions": [
+      2,
+      4,
+      2,
+      1,
+      3,
+      3
+    ],
+    "effectScale": 50,
+    "effectMaxValue": 2000,
+    "nameEN": "Spiritualsense"
+  },
+  {
+    "id": 97,
+    "nameCN": "延息",
+    "tree": 2,
+    "icon": 0,
+    "unknown": 60,
+    "description": "",
+    "prerequisites": [
+      1,
+      2,
+      3
+    ],
+    "tier": 4,
+    "position": 3,
+    "effectCategory": 34,
+    "grade": 2,
+    "cost": 40,
+    "conditions": [
+      1,
+      2,
+      3,
+      4,
+      3,
+      2
+    ],
+    "effectScale": 50,
+    "effectMaxValue": 2000,
+    "nameEN": "Prolongbreath"
+  },
+  {
+    "id": 98,
+    "nameCN": "困敌",
+    "tree": 2,
+    "icon": 0,
+    "unknown": 60,
+    "description": "",
+    "prerequisites": [
+      1,
+      2,
+      4
+    ],
+    "tier": 3,
+    "position": 2,
+    "effectCategory": 35,
+    "grade": 2,
+    "cost": 40,
+    "conditions": [
+      1,
+      2,
+      4,
+      3,
+      2,
+      3
+    ],
+    "effectScale": 50,
+    "effectMaxValue": 2000,
+    "nameEN": "Trapenemy"
+  },
+  {
+    "id": 99,
+    "nameCN": "锐宠",
+    "tree": 2,
+    "icon": 0,
+    "unknown": 60,
+    "description": "",
+    "prerequisites": [
+      3,
+      1,
+      2
+    ],
+    "tier": 3,
+    "position": 2,
+    "effectCategory": 36,
+    "grade": 2,
+    "cost": 40,
+    "conditions": [
+      3,
+      1,
+      2,
+      3,
+      2,
+      4
+    ],
+    "effectScale": 20,
+    "effectMaxValue": 1500,
+    "nameEN": "Sharp pet"
+  },
+  {
+    "id": 100,
+    "nameCN": "驰电",
+    "tree": 2,
+    "icon": 0,
+    "unknown": 60,
+    "description": "",
+    "prerequisites": [
+      2,
+      2,
+      3
+    ],
+    "tier": 1,
+    "position": 4,
+    "effectCategory": 37,
+    "grade": 2,
+    "cost": 40,
+    "conditions": [
+      2,
+      2,
+      3,
+      1,
+      4,
+      3
+    ],
+    "effectScale": 10,
+    "effectMaxValue": 95,
+    "nameEN": "Lightningspeed"
+  },
+  {
+    "id": 101,
+    "nameCN": "不死",
+    "tree": 2,
+    "icon": 0,
+    "unknown": 60,
+    "description": "",
+    "prerequisites": [
+      2,
+      4,
+      3
+    ],
+    "tier": 1,
+    "position": 2,
+    "effectCategory": 38,
+    "grade": 2,
+    "cost": 40,
+    "conditions": [
+      2,
+      4,
+      3,
+      1,
+      2,
+      3
+    ],
+    "effectScale": 20,
+    "effectMaxValue": 2000,
+    "nameEN": "Undead"
+  },
+  {
+    "id": 102,
+    "nameCN": "领悟",
+    "tree": 2,
+    "icon": 0,
+    "unknown": 60,
+    "description": "",
+    "prerequisites": [
+      3,
+      2,
+      2
+    ],
+    "tier": 4,
+    "position": 3,
+    "effectCategory": 39,
+    "grade": 2,
+    "cost": 40,
+    "conditions": [
+      3,
+      2,
+      2,
+      4,
+      3,
+      1
+    ],
+    "effectScale": 20,
+    "effectMaxValue": 1500,
+    "nameEN": "Comprehend"
+  },
+  {
+    "id": 103,
+    "nameCN": "启明",
+    "tree": 2,
+    "icon": 0,
+    "unknown": 60,
+    "description": "",
+    "prerequisites": [
+      1,
+      4,
+      2
+    ],
+    "tier": 3,
+    "position": 3,
+    "effectCategory": 40,
+    "grade": 2,
+    "cost": 40,
+    "conditions": [
+      1,
+      4,
+      2,
+      3,
+      3,
+      2
+    ],
+    "effectScale": 20,
+    "effectMaxValue": 1500,
+    "nameEN": "Enlighten"
+  },
+  {
+    "id": 104,
+    "nameCN": "成长",
+    "tree": 2,
+    "icon": 0,
+    "unknown": 60,
+    "description": "",
+    "prerequisites": [
+      2,
+      2,
+      3
+    ],
+    "tier": 4,
+    "position": 1,
+    "effectCategory": 41,
+    "grade": 2,
+    "cost": 40,
+    "conditions": [
+      2,
+      2,
+      3,
+      4,
+      1,
+      3
+    ],
+    "effectScale": 20,
+    "effectMaxValue": 1500,
+    "nameEN": "Adolescent"
+  },
+  {
+    "id": 105,
+    "nameCN": "幸运",
+    "tree": 2,
+    "icon": 0,
+    "unknown": 60,
+    "description": "",
+    "prerequisites": [
+      3,
+      1,
+      2
+    ],
+    "tier": 3,
+    "position": 2,
+    "effectCategory": 42,
+    "grade": 2,
+    "cost": 40,
+    "conditions": [
+      3,
+      1,
+      2,
+      3,
+      2,
+      4
+    ],
+    "effectScale": 5,
+    "effectMaxValue": 1000,
+    "nameEN": "Lucky"
+  },
+  {
+    "id": 106,
+    "nameCN": "加班",
+    "tree": 2,
+    "icon": 0,
+    "unknown": 60,
+    "description": "",
+    "prerequisites": [
+      3,
+      2,
+      4
+    ],
+    "tier": 2,
+    "position": 3,
+    "effectCategory": 43,
+    "grade": 2,
+    "cost": 40,
+    "conditions": [
+      3,
+      2,
+      4,
+      2,
+      3,
+      1
+    ],
+    "effectScale": 20,
+    "effectMaxValue": 2000,
+    "nameEN": "Overtime"
+  },
+  {
+    "id": 107,
+    "nameCN": "紫电",
+    "tree": 2,
+    "icon": 0,
+    "unknown": 60,
+    "description": "",
+    "prerequisites": [
+      3,
+      1,
+      1
+    ],
+    "tier": 1,
+    "position": 4,
+    "effectCategory": 44,
+    "grade": 2,
+    "cost": 40,
+    "conditions": [
+      3,
+      1,
+      1,
+      1,
+      4,
+      2
+    ],
+    "effectScale": 20,
+    "effectMaxValue": 1500,
+    "nameEN": "Purplelightning"
+  },
+  {
+    "id": 108,
+    "nameCN": "抗雷",
+    "tree": 2,
+    "icon": 0,
+    "unknown": 60,
+    "description": "",
+    "prerequisites": [
+      1,
+      2,
+      4
+    ],
+    "tier": 3,
+    "position": 2,
+    "effectCategory": 45,
+    "grade": 2,
+    "cost": 40,
+    "conditions": [
+      1,
+      2,
+      4,
+      3,
+      2,
+      2
+    ],
+    "effectScale": 8,
+    "effectMaxValue": 80,
+    "nameEN": "Resistlightning"
+  },
+  {
+    "id": 109,
+    "nameCN": "波涛",
+    "tree": 2,
+    "icon": 0,
+    "unknown": 60,
+    "description": "",
+    "prerequisites": [
+      4,
+      1,
+      1
+    ],
+    "tier": 2,
+    "position": 1,
+    "effectCategory": 46,
+    "grade": 2,
+    "cost": 40,
+    "conditions": [
+      4,
+      1,
+      1,
+      2,
+      1,
+      3
+    ],
+    "effectScale": 20,
+    "effectMaxValue": 1500,
+    "nameEN": "Waves"
+  },
+  {
+    "id": 110,
+    "nameCN": "若水",
+    "tree": 2,
+    "icon": 0,
+    "unknown": 60,
+    "description": "弱水三千，上善若水！",
+    "prerequisites": [
+      1,
+      2,
+      3
+    ],
+    "tier": 4,
+    "position": 2,
+    "effectCategory": 47,
+    "grade": 2,
+    "cost": 40,
+    "conditions": [
+      1,
+      2,
+      3,
+      4,
+      2,
+      2
+    ],
+    "effectScale": 8,
+    "effectMaxValue": 80,
+    "nameEN": "Watery"
+  },
+  {
+    "id": 111,
+    "nameCN": "火舞",
+    "tree": 2,
+    "icon": 0,
+    "unknown": 60,
+    "description": "",
+    "prerequisites": [
+      1,
+      2,
+      1
+    ],
+    "tier": 3,
+    "position": 4,
+    "effectCategory": 48,
+    "grade": 2,
+    "cost": 40,
+    "conditions": [
+      1,
+      2,
+      1,
+      3,
+      4,
+      1
+    ],
+    "effectScale": 20,
+    "effectMaxValue": 1500,
+    "nameEN": "Fire dance"
+  },
+  {
+    "id": 112,
+    "nameCN": "防火",
+    "tree": 2,
+    "icon": 0,
+    "unknown": 60,
+    "description": "",
+    "prerequisites": [
+      2,
+      2,
+      4
+    ],
+    "tier": 2,
+    "position": 1,
+    "effectCategory": 49,
+    "grade": 2,
+    "cost": 40,
+    "conditions": [
+      2,
+      2,
+      4,
+      2,
+      1,
+      3
+    ],
+    "effectScale": 8,
+    "effectMaxValue": 80,
+    "nameEN": "Fireproof"
+  },
+  {
+    "id": 113,
+    "nameCN": "自然",
+    "tree": 2,
+    "icon": 0,
+    "unknown": 60,
+    "description": "万物生者，皆为我用！",
+    "prerequisites": [
+      3,
+      1,
+      1
+    ],
+    "tier": 4,
+    "position": 1,
+    "effectCategory": 50,
+    "grade": 2,
+    "cost": 40,
+    "conditions": [
+      3,
+      1,
+      1,
+      4,
+      1,
+      2
+    ],
+    "effectScale": 20,
+    "effectMaxValue": 1500,
+    "nameEN": "Wildheart"
+  },
+  {
+    "id": 114,
+    "nameCN": "化木",
+    "tree": 2,
+    "icon": 0,
+    "unknown": 60,
+    "description": "",
+    "prerequisites": [
+      1,
+      4,
+      2
+    ],
+    "tier": 2,
+    "position": 2,
+    "effectCategory": 51,
+    "grade": 2,
+    "cost": 40,
+    "conditions": [
+      1,
+      4,
+      2,
+      2,
+      2,
+      3
+    ],
+    "effectScale": 8,
+    "effectMaxValue": 80,
+    "nameEN": "Wooden"
+  },
+  {
+    "id": 115,
+    "nameCN": "岩崩",
+    "tree": 2,
+    "icon": 0,
+    "unknown": 60,
+    "description": "",
+    "prerequisites": [
+      3,
+      1,
+      2
+    ],
+    "tier": 1,
+    "position": 4,
+    "effectCategory": 52,
+    "grade": 2,
+    "cost": 40,
+    "conditions": [
+      3,
+      1,
+      2,
+      1,
+      4,
+      1
+    ],
+    "effectScale": 20,
+    "effectMaxValue": 1500,
+    "nameEN": "Rockfall"
+  },
+  {
+    "id": 116,
+    "nameCN": "土遁",
+    "tree": 2,
+    "icon": 0,
+    "unknown": 60,
+    "description": "大地之盾！",
+    "prerequisites": [
+      2,
+      2,
+      2
+    ],
+    "tier": 3,
+    "position": 4,
+    "effectCategory": 53,
+    "grade": 2,
+    "cost": 40,
+    "conditions": [
+      2,
+      2,
+      2,
+      3,
+      4,
+      1
+    ],
+    "effectScale": 8,
+    "effectMaxValue": 80,
+    "nameEN": "Earthescape"
+  },
+  {
+    "id": 117,
+    "nameCN": "心神",
+    "tree": 2,
+    "icon": 0,
+    "unknown": 60,
+    "description": "",
+    "prerequisites": [
+      2,
+      1,
+      1
+    ],
+    "tier": 4,
+    "position": 1,
+    "effectCategory": 54,
+    "grade": 2,
+    "cost": 40,
+    "conditions": [
+      2,
+      1,
+      1,
+      4,
+      1,
+      3
+    ],
+    "effectScale": 20,
+    "effectMaxValue": 1500,
+    "nameEN": "Mind"
+  },
+  {
+    "id": 118,
+    "nameCN": "凝神",
+    "tree": 2,
+    "icon": 0,
+    "unknown": 60,
+    "description": "",
+    "prerequisites": [
+      2,
+      1,
+      2
+    ],
+    "tier": 3,
+    "position": 2,
+    "effectCategory": 55,
+    "grade": 2,
+    "cost": 40,
+    "conditions": [
+      2,
+      1,
+      2,
+      3,
+      2,
+      4
+    ],
+    "effectScale": 8,
+    "effectMaxValue": 80,
+    "nameEN": "Concentrate"
+  },
+  {
+    "id": 119,
+    "nameCN": "神耀",
+    "tree": 2,
+    "icon": 0,
+    "unknown": 60,
+    "description": "",
+    "prerequisites": [
+      1,
+      2,
+      1
+    ],
+    "tier": 1,
+    "position": 4,
+    "effectCategory": 56,
+    "grade": 2,
+    "cost": 40,
+    "conditions": [
+      1,
+      2,
+      1,
+      1,
+      4,
+      3
+    ],
+    "effectScale": 20,
+    "effectMaxValue": 1500,
+    "nameEN": "Divineglory"
+  },
+  {
+    "id": 120,
+    "nameCN": "神护",
+    "tree": 2,
+    "icon": 0,
+    "unknown": 60,
+    "description": "",
+    "prerequisites": [
+      3,
+      1,
+      4
+    ],
+    "tier": 2,
+    "position": 2,
+    "effectCategory": 57,
+    "grade": 2,
+    "cost": 40,
+    "conditions": [
+      3,
+      1,
+      4,
+      2,
+      2,
+      2
+    ],
+    "effectScale": 8,
+    "effectMaxValue": 80,
+    "nameEN": "Divineprotection"
+  },
+  {
+    "id": 121,
+    "nameCN": "暗月",
+    "tree": 2,
+    "icon": 0,
+    "unknown": 60,
+    "description": "",
+    "prerequisites": [
+      1,
+      2,
+      4
+    ],
+    "tier": 1,
+    "position": 3,
+    "effectCategory": 58,
+    "grade": 2,
+    "cost": 40,
+    "conditions": [
+      1,
+      2,
+      4,
+      1,
+      3,
+      1
+    ],
+    "effectScale": 20,
+    "effectMaxValue": 1500,
+    "nameEN": "Darkmoon"
+  },
+  {
+    "id": 122,
+    "nameCN": "魔抗",
+    "tree": 2,
+    "icon": 0,
+    "unknown": 60,
+    "description": "",
+    "prerequisites": [
+      1,
+      3,
+      2
+    ],
+    "tier": 4,
+    "position": 2,
+    "effectCategory": 59,
+    "grade": 2,
+    "cost": 40,
+    "conditions": [
+      1,
+      3,
+      2,
+      4,
+      2,
+      2
+    ],
+    "effectScale": 8,
+    "effectMaxValue": 80,
+    "nameEN": "Magicresistance"
+  },
+  {
+    "id": 123,
+    "nameCN": "渐融",
+    "tree": 2,
+    "icon": 0,
+    "unknown": 60,
+    "description": "",
+    "prerequisites": [
+      3,
+      1,
+      2
+    ],
+    "tier": 1,
+    "position": 1,
+    "effectCategory": 60,
+    "grade": 2,
+    "cost": 40,
+    "conditions": [
+      3,
+      1,
+      2,
+      1,
+      1,
+      4
+    ],
+    "effectScale": 25,
+    "effectMaxValue": 1500,
+    "nameEN": "Fusegradually"
+  },
+  {
+    "id": 124,
+    "nameCN": "盾卫",
+    "tree": 2,
+    "icon": 0,
+    "unknown": 60,
+    "description": "",
+    "prerequisites": [
+      4,
+      3,
+      1
+    ],
+    "tier": 1,
+    "position": 2,
+    "effectCategory": 61,
+    "grade": 2,
+    "cost": 40,
+    "conditions": [
+      4,
+      3,
+      1,
+      1,
+      2,
+      1
+    ],
+    "effectScale": 25,
+    "effectMaxValue": 1500,
+    "nameEN": "Shieldguard"
+  },
+  {
+    "id": 125,
+    "nameCN": "武者",
+    "tree": 2,
+    "icon": 0,
+    "unknown": 60,
+    "description": "",
+    "prerequisites": [
+      2,
+      1,
+      1
+    ],
+    "tier": 1,
+    "position": 4,
+    "effectCategory": 62,
+    "grade": 2,
+    "cost": 40,
+    "conditions": [
+      2,
+      1,
+      1,
+      1,
+      4,
+      3
+    ],
+    "effectScale": 25,
+    "effectMaxValue": 1500,
+    "nameEN": "Martialist"
+  },
+  {
+    "id": 126,
+    "nameCN": "符师",
+    "tree": 2,
+    "icon": 0,
+    "unknown": 60,
+    "description": "",
+    "prerequisites": [
+      3,
+      1,
+      4
+    ],
+    "tier": 1,
+    "position": 2,
+    "effectCategory": 63,
+    "grade": 2,
+    "cost": 40,
+    "conditions": [
+      3,
+      1,
+      4,
+      1,
+      2,
+      1
+    ],
+    "effectScale": 25,
+    "effectMaxValue": 1500,
+    "nameEN": "Runemaster"
+  },
+  {
+    "id": 127,
+    "nameCN": "弩影",
+    "tree": 2,
+    "icon": 0,
+    "unknown": 60,
+    "description": "",
+    "prerequisites": [
+      1,
+      3,
+      2
+    ],
+    "tier": 1,
+    "position": 1,
+    "effectCategory": 64,
+    "grade": 2,
+    "cost": 40,
+    "conditions": [
+      1,
+      3,
+      2,
+      1,
+      1,
+      4
+    ],
+    "effectScale": 25,
+    "effectMaxValue": 1500,
+    "nameEN": "Crossbowshadow"
+  },
+  {
+    "id": 128,
+    "nameCN": "灵方",
+    "tree": 2,
+    "icon": 0,
+    "unknown": 60,
+    "description": "",
+    "prerequisites": [
+      3,
+      4,
+      1
+    ],
+    "tier": 1,
+    "position": 1,
+    "effectCategory": 65,
+    "grade": 2,
+    "cost": 40,
+    "conditions": [
+      3,
+      4,
+      1,
+      1,
+      1,
+      2
+    ],
+    "effectScale": 25,
+    "effectMaxValue": 1500,
+    "nameEN": "Spiritualformula"
+  },
+  {
+    "id": 129,
+    "nameCN": "进化",
+    "tree": 2,
+    "icon": 0,
+    "unknown": 60,
+    "description": "",
+    "prerequisites": [
+      3,
+      1,
+      2
+    ],
+    "tier": 4,
+    "position": 1,
+    "effectCategory": 66,
+    "grade": 2,
+    "cost": 40,
+    "conditions": [
+      3,
+      1,
+      2,
+      4,
+      1,
+      1
+    ],
+    "effectScale": 25,
+    "effectMaxValue": 1500,
+    "nameEN": "Evolve"
+  },
+  {
+    "id": 130,
+    "nameCN": "神启",
+    "tree": 2,
+    "icon": 0,
+    "unknown": 60,
+    "description": "",
+    "prerequisites": [
+      1,
+      2,
+      1
+    ],
+    "tier": 4,
+    "position": 1,
+    "effectCategory": 67,
+    "grade": 2,
+    "cost": 40,
+    "conditions": [
+      1,
+      2,
+      1,
+      4,
+      1,
+      3
+    ],
+    "effectScale": 25,
+    "effectMaxValue": 1500,
+    "nameEN": "Divineenlightenment"
+  },
+  {
+    "id": 131,
+    "nameCN": "斗师",
+    "tree": 2,
+    "icon": 0,
+    "unknown": 60,
+    "description": "",
+    "prerequisites": [
+      4,
+      1,
+      3
+    ],
+    "tier": 1,
+    "position": 2,
+    "effectCategory": 68,
+    "grade": 2,
+    "cost": 40,
+    "conditions": [
+      4,
+      1,
+      3,
+      1,
+      2,
+      1
+    ],
+    "effectScale": 25,
+    "effectMaxValue": 1500,
+    "nameEN": "Fightingmaster"
+  },
+  {
+    "id": 132,
+    "nameCN": "中忍",
+    "tree": 2,
+    "icon": 0,
+    "unknown": 60,
+    "description": "",
+    "prerequisites": [
+      3,
+      4,
+      1
+    ],
+    "tier": 1,
+    "position": 2,
+    "effectCategory": 69,
+    "grade": 2,
+    "cost": 40,
+    "conditions": [
+      3,
+      4,
+      1,
+      1,
+      2,
+      1
+    ],
+    "effectScale": 25,
+    "effectMaxValue": 1500,
+    "nameEN": "Chunin"
+  },
+  {
+    "id": 133,
+    "nameCN": "导师",
+    "tree": 2,
+    "icon": 0,
+    "unknown": 60,
+    "description": "",
+    "prerequisites": [
+      3,
+      2,
+      1
+    ],
+    "tier": 1,
+    "position": 1,
+    "effectCategory": 70,
+    "grade": 2,
+    "cost": 40,
+    "conditions": [
+      3,
+      2,
+      1,
+      1,
+      1,
+      4
+    ],
+    "effectScale": 25,
+    "effectMaxValue": 1500,
+    "nameEN": "Tutor"
+  },
+  {
+    "id": 134,
+    "nameCN": "入道",
+    "tree": 2,
+    "icon": 0,
+    "unknown": 60,
+    "description": "",
+    "prerequisites": [
+      2,
+      1,
+      4
+    ],
+    "tier": 1,
+    "position": 3,
+    "effectCategory": 71,
+    "grade": 2,
+    "cost": 40,
+    "conditions": [
+      2,
+      1,
+      4,
+      1,
+      3,
+      1
+    ],
+    "effectScale": 25,
+    "effectMaxValue": 1500,
+    "nameEN": "Tao"
+  },
+  {
+    "id": 135,
+    "nameCN": "枪手",
+    "tree": 2,
+    "icon": 0,
+    "unknown": 60,
+    "description": "",
+    "prerequisites": [
+      1,
+      3,
+      4
+    ],
+    "tier": 1,
+    "position": 1,
+    "effectCategory": 72,
+    "grade": 2,
+    "cost": 40,
+    "conditions": [
+      1,
+      3,
+      4,
+      1,
+      1,
+      2
+    ],
+    "effectScale": 25,
+    "effectMaxValue": 1500,
+    "nameEN": "Gunner"
+  },
+  {
+    "id": 136,
+    "nameCN": "机师",
+    "tree": 2,
+    "icon": 0,
+    "unknown": 60,
+    "description": "",
+    "prerequisites": [
+      3,
+      1,
+      2
+    ],
+    "tier": 1,
+    "position": 1,
+    "effectCategory": 73,
+    "grade": 2,
+    "cost": 40,
+    "conditions": [
+      3,
+      1,
+      2,
+      1,
+      1,
+      4
+    ],
+    "effectScale": 25,
+    "effectMaxValue": 1500,
+    "nameEN": "Pilot"
+  },
+  {
+    "id": 137,
+    "nameCN": "唤魔",
+    "tree": 2,
+    "icon": 0,
+    "unknown": 60,
+    "description": "",
+    "prerequisites": [
+      2,
+      4,
+      1
+    ],
+    "tier": 1,
+    "position": 3,
+    "effectCategory": 74,
+    "grade": 2,
+    "cost": 40,
+    "conditions": [
+      2,
+      4,
+      1,
+      1,
+      3,
+      1
+    ],
+    "effectScale": 25,
+    "effectMaxValue": 1500,
+    "nameEN": "Summondemon"
+  },
+  {
+    "id": 138,
+    "nameCN": "医士",
+    "tree": 2,
+    "icon": 0,
+    "unknown": 60,
+    "description": "",
+    "prerequisites": [
+      1,
+      1,
+      1
+    ],
+    "tier": 4,
+    "position": 3,
+    "effectCategory": 75,
+    "grade": 2,
+    "cost": 40,
+    "conditions": [
+      1,
+      1,
+      1,
+      4,
+      3,
+      2
+    ],
+    "effectScale": 25,
+    "effectMaxValue": 1500,
+    "nameEN": "Medic"
+  },
+  {
+    "id": 139,
+    "nameCN": "剑风",
+    "tree": 2,
+    "icon": 0,
+    "unknown": 60,
+    "description": "",
+    "prerequisites": [
+      1,
+      1,
+      4
+    ],
+    "tier": 3,
+    "position": 2,
+    "effectCategory": 93,
+    "grade": 2,
+    "cost": 40,
+    "conditions": [
+      1,
+      1,
+      4,
+      3,
+      2,
+      1
+    ],
+    "effectScale": 25,
+    "effectMaxValue": 1500,
+    "nameEN": "Swordwind"
+  },
+  {
+    "id": 140,
+    "nameCN": "戟师",
+    "tree": 2,
+    "icon": 0,
+    "unknown": 60,
+    "description": "长枪所指，皆为人屠！",
+    "prerequisites": [
+      3,
+      1,
+      2
+    ],
+    "tier": 1,
+    "position": 1,
+    "effectCategory": 92,
+    "grade": 2,
+    "cost": 40,
+    "conditions": [
+      3,
+      1,
+      2,
+      1,
+      1,
+      4
+    ],
+    "effectScale": 25,
+    "effectMaxValue": 1500,
+    "nameEN": "Halberdmaster"
+  },
+  {
+    "id": 141,
+    "nameCN": "文光",
+    "tree": 2,
+    "icon": 0,
+    "unknown": 60,
+    "description": "",
+    "prerequisites": [
+      2,
+      1,
+      1
+    ],
+    "tier": 1,
+    "position": 4,
+    "effectCategory": 100,
+    "grade": 2,
+    "cost": 40,
+    "conditions": [
+      2,
+      1,
+      1,
+      1,
+      4,
+      3
+    ],
+    "effectScale": 25,
+    "effectMaxValue": 1500,
+    "nameEN": "Literaryglow"
+  },
+  {
+    "id": 142,
+    "nameCN": "白袍",
+    "tree": 2,
+    "icon": 0,
+    "unknown": 60,
+    "description": "",
+    "prerequisites": [
+      1,
+      4,
+      3
+    ],
+    "tier": 1,
+    "position": 2,
+    "effectCategory": 96,
+    "grade": 2,
+    "cost": 40,
+    "conditions": [
+      1,
+      4,
+      3,
+      1,
+      2,
+      1
+    ],
+    "effectScale": 25,
+    "effectMaxValue": 1500,
+    "nameEN": "Whiterobe"
+  },
+  {
+    "id": 143,
+    "nameCN": "狙击",
+    "tree": 2,
+    "icon": 0,
+    "unknown": 60,
+    "description": "用弓弩和枪，不是枪！",
+    "prerequisites": [
+      3,
+      2,
+      1
+    ],
+    "tier": 4,
+    "position": 1,
+    "effectCategory": 98,
+    "grade": 2,
+    "cost": 40,
+    "conditions": [
+      3,
+      2,
+      1,
+      4,
+      1,
+      1
+    ],
+    "effectScale": 25,
+    "effectMaxValue": 1500,
+    "nameEN": "Snipe"
+  },
+  {
+    "id": 144,
+    "nameCN": "重炮",
+    "tree": 2,
+    "icon": 0,
+    "unknown": 60,
+    "description": "",
+    "prerequisites": [
+      1,
+      4,
+      1
+    ],
+    "tier": 1,
+    "position": 3,
+    "effectCategory": 99,
+    "grade": 2,
+    "cost": 40,
+    "conditions": [
+      1,
+      4,
+      1,
+      1,
+      3,
+      2
+    ],
+    "effectScale": 25,
+    "effectMaxValue": 1500,
+    "nameEN": "Heavyartillery"
+  },
+  {
+    "id": 145,
+    "nameCN": "拳劲",
+    "tree": 2,
+    "icon": 0,
+    "unknown": 60,
+    "description": "",
+    "prerequisites": [
+      2,
+      1,
+      3
+    ],
+    "tier": 4,
+    "position": 1,
+    "effectCategory": 94,
+    "grade": 2,
+    "cost": 40,
+    "conditions": [
+      2,
+      1,
+      3,
+      4,
+      1,
+      1
+    ],
+    "effectScale": 25,
+    "effectMaxValue": 1500,
+    "nameEN": "Fiststrength"
+  },
+  {
+    "id": 146,
+    "nameCN": "影刃",
+    "tree": 2,
+    "icon": 0,
+    "unknown": 60,
+    "description": "",
+    "prerequisites": [
+      3,
+      1,
+      1
+    ],
+    "tier": 1,
+    "position": 2,
+    "effectCategory": 95,
+    "grade": 2,
+    "cost": 40,
+    "conditions": [
+      3,
+      1,
+      1,
+      1,
+      2,
+      4
+    ],
+    "effectScale": 25,
+    "effectMaxValue": 1500,
+    "nameEN": "Shadow Blade"
+  },
+  {
+    "id": 147,
+    "nameCN": "凝灵",
+    "tree": 2,
+    "icon": 0,
+    "unknown": 60,
+    "description": "",
+    "prerequisites": [
+      1,
+      2,
+      4
+    ],
+    "tier": 1,
+    "position": 3,
+    "effectCategory": 97,
+    "grade": 2,
+    "cost": 40,
+    "conditions": [
+      1,
+      2,
+      4,
+      1,
+      3,
+      1
+    ],
+    "effectScale": 25,
+    "effectMaxValue": 1500,
+    "nameEN": "Condensespirit"
+  },
+  {
+    "id": 148,
+    "nameCN": "器威",
+    "tree": 2,
+    "icon": 0,
+    "unknown": 60,
+    "description": "",
+    "prerequisites": [
+      3,
+      1,
+      1
+    ],
+    "tier": 1,
+    "position": 4,
+    "effectCategory": 101,
+    "grade": 2,
+    "cost": 40,
+    "conditions": [
+      3,
+      1,
+      1,
+      1,
+      4,
+      2
+    ],
+    "effectScale": 25,
+    "effectMaxValue": 1500,
+    "nameEN": "Artifactpower"
+  },
+  {
+    "id": 149,
+    "nameCN": "驯养",
+    "tree": 2,
+    "icon": 0,
+    "unknown": 60,
+    "description": "",
+    "prerequisites": [
+      1,
+      2,
+      4
+    ],
+    "tier": 3,
+    "position": 3,
+    "effectCategory": 137,
+    "grade": 2,
+    "cost": 40,
+    "conditions": [
+      1,
+      2,
+      4,
+      3,
+      3,
+      2
+    ],
+    "effectScale": 25,
+    "effectMaxValue": 2500,
+    "nameEN": "Tame"
+  },
+  {
+    "id": 150,
+    "nameCN": "管辖",
+    "tree": 2,
+    "icon": 0,
+    "unknown": 60,
+    "description": "",
+    "prerequisites": [
+      4,
+      1,
+      3
+    ],
+    "tier": 2,
+    "position": 2,
+    "effectCategory": 138,
+    "grade": 2,
+    "cost": 40,
+    "conditions": [
+      4,
+      1,
+      3,
+      2,
+      2,
+      3
+    ],
+    "effectScale": 25,
+    "effectMaxValue": 2500,
+    "nameEN": "Govern"
+  },
+  {
+    "id": 151,
+    "nameCN": "匠师",
+    "tree": 2,
+    "icon": 0,
+    "unknown": 60,
+    "description": "",
+    "prerequisites": [
+      1,
+      2,
+      3
+    ],
+    "tier": 4,
+    "position": 2,
+    "effectCategory": 139,
+    "grade": 2,
+    "cost": 40,
+    "conditions": [
+      1,
+      2,
+      3,
+      4,
+      2,
+      3
+    ],
+    "effectScale": 25,
+    "effectMaxValue": 2500,
+    "nameEN": "Artisan"
+  },
+  {
+    "id": 152,
+    "nameCN": "悟学",
+    "tree": 2,
+    "icon": 0,
+    "unknown": 60,
+    "description": "",
+    "prerequisites": [
+      1,
+      2,
+      2
+    ],
+    "tier": 3,
+    "position": 4,
+    "effectCategory": 140,
+    "grade": 2,
+    "cost": 40,
+    "conditions": [
+      1,
+      2,
+      2,
+      3,
+      4,
+      3
+    ],
+    "effectScale": 25,
+    "effectMaxValue": 2500,
+    "nameEN": "Enlightenedlearning"
+  },
+  {
+    "id": 153,
+    "nameCN": "博士",
+    "tree": 2,
+    "icon": 0,
+    "unknown": 60,
+    "description": "",
+    "prerequisites": [
+      3,
+      2,
+      4
+    ],
+    "tier": 1,
+    "position": 2,
+    "effectCategory": 141,
+    "grade": 2,
+    "cost": 40,
+    "conditions": [
+      3,
+      2,
+      4,
+      1,
+      2,
+      3
+    ],
+    "effectScale": 25,
+    "effectMaxValue": 2500,
+    "nameEN": "Doctor"
+  },
+  {
+    "id": 154,
+    "nameCN": "设计",
+    "tree": 2,
+    "icon": 0,
+    "unknown": 60,
+    "description": "",
+    "prerequisites": [
+      3,
+      3,
+      2
+    ],
+    "tier": 4,
+    "position": 1,
+    "effectCategory": 142,
+    "grade": 2,
+    "cost": 40,
+    "conditions": [
+      3,
+      3,
+      2,
+      4,
+      1,
+      2
+    ],
+    "effectScale": 25,
+    "effectMaxValue": 2500,
+    "nameEN": "Design"
+  },
+  {
+    "id": 155,
+    "nameCN": "销售",
+    "tree": 2,
+    "icon": 0,
+    "unknown": 60,
+    "description": "任何位面都有的职业！",
+    "prerequisites": [
+      1,
+      4,
+      3
+    ],
+    "tier": 2,
+    "position": 2,
+    "effectCategory": 143,
+    "grade": 2,
+    "cost": 40,
+    "conditions": [
+      1,
+      4,
+      3,
+      2,
+      2,
+      3
+    ],
+    "effectScale": 25,
+    "effectMaxValue": 2500,
+    "nameEN": "Sell"
+  },
+  {
+    "id": 156,
+    "nameCN": "组装",
+    "tree": 2,
+    "icon": 0,
+    "unknown": 60,
+    "description": "制造与合成之师！",
+    "prerequisites": [
+      3,
+      1,
+      2
+    ],
+    "tier": 2,
+    "position": 4,
+    "effectCategory": 144,
+    "grade": 2,
+    "cost": 40,
+    "conditions": [
+      3,
+      1,
+      2,
+      2,
+      4,
+      3
+    ],
+    "effectScale": 25,
+    "effectMaxValue": 2500,
+    "nameEN": "Assemble"
+  },
+  {
+    "id": 157,
+    "nameCN": "军师",
+    "tree": 2,
+    "icon": 0,
+    "unknown": 60,
+    "description": "",
+    "prerequisites": [
+      1,
+      2,
+      2
+    ],
+    "tier": 3,
+    "position": 4,
+    "effectCategory": 145,
+    "grade": 2,
+    "cost": 40,
+    "conditions": [
+      1,
+      2,
+      2,
+      3,
+      4,
+      3
+    ],
+    "effectScale": 25,
+    "effectMaxValue": 2500,
+    "nameEN": "Militaryadviser"
+  },
+  {
+    "id": 158,
+    "nameCN": "鉴师",
+    "tree": 2,
+    "icon": 0,
+    "unknown": 60,
+    "description": "",
+    "prerequisites": [
+      2,
+      1,
+      2
+    ],
+    "tier": 4,
+    "position": 3,
+    "effectCategory": 146,
+    "grade": 2,
+    "cost": 40,
+    "conditions": [
+      2,
+      1,
+      2,
+      4,
+      3,
+      3
+    ],
+    "effectScale": 25,
+    "effectMaxValue": 2500,
+    "nameEN": "Appraiser"
+  },
+  {
+    "id": 159,
+    "nameCN": "穹破",
+    "tree": 3,
+    "icon": 0,
+    "unknown": 100,
+    "description": "目光所视，要害无藏！",
+    "prerequisites": [
+      2,
+      1,
+      4
+    ],
+    "tier": 3,
+    "position": 1,
+    "effectCategory": 12,
+    "grade": 3,
+    "cost": 80,
+    "conditions": [
+      2,
+      1,
+      4,
+      3,
+      1,
+      4
+    ],
+    "effectScale": 6,
+    "effectMaxValue": 100,
+    "nameEN": "Domebreak"
+  },
+  {
+    "id": 160,
+    "nameCN": "斩神",
+    "tree": 3,
+    "icon": 0,
+    "unknown": 100,
+    "description": "割草？我是认真的！",
+    "prerequisites": [
+      1,
+      2,
+      4
+    ],
+    "tier": 1,
+    "position": 4,
+    "effectCategory": 13,
+    "grade": 3,
+    "cost": 80,
+    "conditions": [
+      1,
+      2,
+      4,
+      1,
+      4,
+      3
+    ],
+    "effectScale": 40,
+    "effectMaxValue": 5000,
+    "nameEN": "Godslayer"
+  },
+  {
+    "id": 161,
+    "nameCN": "嗜血",
+    "tree": 3,
+    "icon": 0,
+    "unknown": 100,
+    "description": "",
+    "prerequisites": [
+      3,
+      1,
+      4
+    ],
+    "tier": 3,
+    "position": 4,
+    "effectCategory": 14,
+    "grade": 3,
+    "cost": 80,
+    "conditions": [
+      3,
+      1,
+      4,
+      3,
+      4,
+      2
+    ],
+    "effectScale": 3,
+    "effectMaxValue": 300,
+    "nameEN": "Bloodlust"
+  },
+  {
+    "id": 162,
+    "nameCN": "悬壶",
+    "tree": 3,
+    "icon": 0,
+    "unknown": 100,
+    "description": "",
+    "prerequisites": [
+      4,
+      3,
+      1
+    ],
+    "tier": 4,
+    "position": 2,
+    "effectCategory": 16,
+    "grade": 3,
+    "cost": 80,
+    "conditions": [
+      4,
+      3,
+      1,
+      4,
+      2,
+      3
+    ],
+    "effectScale": 20,
+    "effectMaxValue": 1500,
+    "nameEN": "Heal"
+  },
+  {
+    "id": 163,
+    "nameCN": "仙卫",
+    "tree": 3,
+    "icon": 0,
+    "unknown": 100,
+    "description": "",
+    "prerequisites": [
+      2,
+      1,
+      4
+    ],
+    "tier": 2,
+    "position": 4,
+    "effectCategory": 17,
+    "grade": 3,
+    "cost": 80,
+    "conditions": [
+      2,
+      1,
+      4,
+      2,
+      4,
+      3
+    ],
+    "effectScale": 20,
+    "effectMaxValue": 1500,
+    "nameEN": "Immortalguard"
+  },
+  {
+    "id": 164,
+    "nameCN": "贯穹",
+    "tree": 3,
+    "icon": 0,
+    "unknown": 100,
+    "description": "",
+    "prerequisites": [
+      3,
+      1,
+      4
+    ],
+    "tier": 1,
+    "position": 2,
+    "effectCategory": 18,
+    "grade": 3,
+    "cost": 80,
+    "conditions": [
+      3,
+      1,
+      4,
+      1,
+      2,
+      4
+    ],
+    "effectScale": 5,
+    "effectMaxValue": 1000,
+    "nameEN": "Piercedome"
+  },
+  {
+    "id": 165,
+    "nameCN": "幻虚",
+    "tree": 3,
+    "icon": 0,
+    "unknown": 100,
+    "description": "",
+    "prerequisites": [
+      2,
+      3,
+      2
+    ],
+    "tier": 4,
+    "position": 1,
+    "effectCategory": 19,
+    "grade": 3,
+    "cost": 80,
+    "conditions": [
+      2,
+      3,
+      2,
+      4,
+      1,
+      4
+    ],
+    "effectScale": 5,
+    "effectMaxValue": 1000,
+    "nameEN": "Illusionaryvoid"
+  },
+  {
+    "id": 166,
+    "nameCN": "灭敌",
+    "tree": 3,
+    "icon": 0,
+    "unknown": 100,
+    "description": "",
+    "prerequisites": [
+      3,
+      4,
+      4
+    ],
+    "tier": 1,
+    "position": 1,
+    "effectCategory": 20,
+    "grade": 3,
+    "cost": 80,
+    "conditions": [
+      3,
+      4,
+      4,
+      1,
+      1,
+      2
+    ],
+    "effectScale": 20,
+    "effectMaxValue": 1500,
+    "nameEN": "Destroyenemy"
+  },
+  {
+    "id": 167,
+    "nameCN": "镇岳",
+    "tree": 3,
+    "icon": 0,
+    "unknown": 80,
+    "description": "",
+    "prerequisites": [
+      3,
+      4,
+      2
+    ],
+    "tier": 4,
+    "position": 1,
+    "effectCategory": 21,
+    "grade": 3,
+    "cost": 80,
+    "conditions": [
+      3,
+      4,
+      2,
+      4,
+      1,
+      2
+    ],
+    "effectScale": 8,
+    "effectMaxValue": 80,
+    "nameEN": "Suppressmountain"
+  },
+  {
+    "id": 168,
+    "nameCN": "法尊",
+    "tree": 3,
+    "icon": 0,
+    "unknown": 100,
+    "description": "",
+    "prerequisites": [
+      1,
+      2,
+      4
+    ],
+    "tier": 4,
+    "position": 1,
+    "effectCategory": 22,
+    "grade": 3,
+    "cost": 80,
+    "conditions": [
+      1,
+      2,
+      4,
+      4,
+      1,
+      3
+    ],
+    "effectScale": 20,
+    "effectMaxValue": 1500,
+    "nameEN": "Dharmavenerable"
+  },
+  {
+    "id": 169,
+    "nameCN": "法御",
+    "tree": 3,
+    "icon": 0,
+    "unknown": 80,
+    "description": "",
+    "prerequisites": [
+      4,
+      4,
+      3
+    ],
+    "tier": 2,
+    "position": 2,
+    "effectCategory": 23,
+    "grade": 3,
+    "cost": 80,
+    "conditions": [
+      4,
+      4,
+      3,
+      2,
+      2,
+      1
+    ],
+    "effectScale": 8,
+    "effectMaxValue": 80,
+    "nameEN": "Dharma defense"
+  },
+  {
+    "id": 170,
+    "nameCN": "碎空",
+    "tree": 3,
+    "icon": 0,
+    "unknown": 100,
+    "description": "",
+    "prerequisites": [
+      3,
+      4,
+      1
+    ],
+    "tier": 4,
+    "position": 2,
+    "effectCategory": 25,
+    "grade": 3,
+    "cost": 80,
+    "conditions": [
+      3,
+      4,
+      1,
+      4,
+      2,
+      1
+    ],
+    "effectScale": 20,
+    "effectMaxValue": 2000,
+    "nameEN": "Shattersky"
+  },
+  {
+    "id": 171,
+    "nameCN": "破碎",
+    "tree": 3,
+    "icon": 0,
+    "unknown": 100,
+    "description": "给与真实一击！",
+    "prerequisites": [
+      3,
+      2,
+      1
+    ],
+    "tier": 1,
+    "position": 4,
+    "effectCategory": 26,
+    "grade": 3,
+    "cost": 80,
+    "conditions": [
+      3,
+      2,
+      1,
+      1,
+      4,
+      4
+    ],
+    "effectScale": 10,
+    "effectMaxValue": 1000,
+    "nameEN": "Broken"
+  },
+  {
+    "id": 172,
+    "nameCN": "仙佑",
+    "tree": 3,
+    "icon": 0,
+    "unknown": 80,
+    "description": "什么都得给我挡住！",
+    "prerequisites": [
+      2,
+      2,
+      4
+    ],
+    "tier": 1,
+    "position": 3,
+    "effectCategory": 27,
+    "grade": 3,
+    "cost": 80,
+    "conditions": [
+      2,
+      2,
+      4,
+      1,
+      3,
+      4
+    ],
+    "effectScale": 4,
+    "effectMaxValue": 80,
+    "nameEN": "Immortalblessing"
+  },
+  {
+    "id": 173,
+    "nameCN": "宝辉",
+    "tree": 3,
+    "icon": 0,
+    "unknown": 100,
+    "description": "",
+    "prerequisites": [
+      1,
+      3,
+      4
+    ],
+    "tier": 2,
+    "position": 3,
+    "effectCategory": 30,
+    "grade": 3,
+    "cost": 80,
+    "conditions": [
+      1,
+      3,
+      4,
+      2,
+      3,
+      4
+    ],
+    "effectScale": 20,
+    "effectMaxValue": 1500,
+    "nameEN": "Treasureglow"
+  },
+  {
+    "id": 174,
+    "nameCN": "血脉",
+    "tree": 3,
+    "icon": 0,
+    "unknown": 100,
+    "description": "",
+    "prerequisites": [
+      3,
+      3,
+      4
+    ],
+    "tier": 1,
+    "position": 2,
+    "effectCategory": 31,
+    "grade": 3,
+    "cost": 80,
+    "conditions": [
+      3,
+      3,
+      4,
+      1,
+      2,
+      4
+    ],
+    "effectScale": 20,
+    "effectMaxValue": 1200,
+    "nameEN": "Bloodline"
+  },
+  {
+    "id": 175,
+    "nameCN": "永伴",
+    "tree": 3,
+    "icon": 0,
+    "unknown": 100,
+    "description": "",
+    "prerequisites": [
+      2,
+      4,
+      4
+    ],
+    "tier": 1,
+    "position": 3,
+    "effectCategory": 33,
+    "grade": 3,
+    "cost": 80,
+    "conditions": [
+      2,
+      4,
+      4,
+      1,
+      3,
+      3
+    ],
+    "effectScale": 50,
+    "effectMaxValue": 2000,
+    "nameEN": "Eternalcompanion"
+  },
+  {
+    "id": 176,
+    "nameCN": "久持",
+    "tree": 3,
+    "icon": 0,
+    "unknown": 100,
+    "description": "",
+    "prerequisites": [
+      1,
+      2,
+      3
+    ],
+    "tier": 4,
+    "position": 3,
+    "effectCategory": 34,
+    "grade": 3,
+    "cost": 80,
+    "conditions": [
+      1,
+      2,
+      3,
+      4,
+      3,
+      4
+    ],
+    "effectScale": 50,
+    "effectMaxValue": 2000,
+    "nameEN": "Longhold"
+  },
+  {
+    "id": 177,
+    "nameCN": "封魔",
+    "tree": 3,
+    "icon": 0,
+    "unknown": 100,
+    "description": "",
+    "prerequisites": [
+      1,
+      2,
+      4
+    ],
+    "tier": 3,
+    "position": 4,
+    "effectCategory": 35,
+    "grade": 3,
+    "cost": 80,
+    "conditions": [
+      1,
+      2,
+      4,
+      3,
+      4,
+      3
+    ],
+    "effectScale": 50,
+    "effectMaxValue": 2000,
+    "nameEN": "Sealdemon"
+  },
+  {
+    "id": 178,
+    "nameCN": "仙兽",
+    "tree": 3,
+    "icon": 0,
+    "unknown": 100,
+    "description": "",
+    "prerequisites": [
+      3,
+      1,
+      4
+    ],
+    "tier": 3,
+    "position": 2,
+    "effectCategory": 36,
+    "grade": 3,
+    "cost": 80,
+    "conditions": [
+      3,
+      1,
+      4,
+      3,
+      2,
+      4
+    ],
+    "effectScale": 20,
+    "effectMaxValue": 1500,
+    "nameEN": "Immortalbeast"
+  },
+  {
+    "id": 179,
+    "nameCN": "极速",
+    "tree": 3,
+    "icon": 0,
+    "unknown": 80,
+    "description": "",
+    "prerequisites": [
+      4,
+      2,
+      3
+    ],
+    "tier": 1,
+    "position": 4,
+    "effectCategory": 37,
+    "grade": 3,
+    "cost": 80,
+    "conditions": [
+      4,
+      2,
+      3,
+      1,
+      4,
+      3
+    ],
+    "effectScale": 10,
+    "effectMaxValue": 95,
+    "nameEN": "Superspeed"
+  },
+  {
+    "id": 180,
+    "nameCN": "不灭",
+    "tree": 3,
+    "icon": 0,
+    "unknown": 100,
+    "description": "",
+    "prerequisites": [
+      4,
+      4,
+      3
+    ],
+    "tier": 1,
+    "position": 2,
+    "effectCategory": 38,
+    "grade": 3,
+    "cost": 80,
+    "conditions": [
+      4,
+      4,
+      3,
+      1,
+      2,
+      3
+    ],
+    "effectScale": 20,
+    "effectMaxValue": 2000,
+    "nameEN": "Immortal"
+  },
+  {
+    "id": 181,
+    "nameCN": "通晓",
+    "tree": 3,
+    "icon": 0,
+    "unknown": 100,
+    "description": "",
+    "prerequisites": [
+      3,
+      2,
+      4
+    ],
+    "tier": 4,
+    "position": 3,
+    "effectCategory": 39,
+    "grade": 3,
+    "cost": 80,
+    "conditions": [
+      3,
+      2,
+      4,
+      4,
+      3,
+      1
+    ],
+    "effectScale": 20,
+    "effectMaxValue": 1500,
+    "nameEN": "Proficient"
+  },
+  {
+    "id": 182,
+    "nameCN": "跃阶",
+    "tree": 3,
+    "icon": 0,
+    "unknown": 100,
+    "description": "",
+    "prerequisites": [
+      1,
+      4,
+      2
+    ],
+    "tier": 3,
+    "position": 3,
+    "effectCategory": 40,
+    "grade": 3,
+    "cost": 80,
+    "conditions": [
+      1,
+      4,
+      2,
+      3,
+      3,
+      4
+    ],
+    "effectScale": 20,
+    "effectMaxValue": 1500,
+    "nameEN": "Leaplevel"
+  },
+  {
+    "id": 183,
+    "nameCN": "锐进",
+    "tree": 3,
+    "icon": 0,
+    "unknown": 100,
+    "description": "",
+    "prerequisites": [
+      2,
+      4,
+      3
+    ],
+    "tier": 4,
+    "position": 1,
+    "effectCategory": 41,
+    "grade": 3,
+    "cost": 80,
+    "conditions": [
+      2,
+      4,
+      3,
+      4,
+      1,
+      3
+    ],
+    "effectScale": 20,
+    "effectMaxValue": 1500,
+    "nameEN": "Rapidadvance"
+  },
+  {
+    "id": 184,
+    "nameCN": "命运",
+    "tree": 3,
+    "icon": 0,
+    "unknown": 100,
+    "description": "命运擅长玩弄一切！",
+    "prerequisites": [
+      3,
+      1,
+      2
+    ],
+    "tier": 3,
+    "position": 4,
+    "effectCategory": 42,
+    "grade": 3,
+    "cost": 80,
+    "conditions": [
+      3,
+      1,
+      2,
+      3,
+      4,
+      4
+    ],
+    "effectScale": 5,
+    "effectMaxValue": 1000,
+    "nameEN": "Fate"
+  },
+  {
+    "id": 185,
+    "nameCN": "全勤",
+    "tree": 3,
+    "icon": 0,
+    "unknown": 100,
+    "description": "",
+    "prerequisites": [
+      3,
+      2,
+      4
+    ],
+    "tier": 4,
+    "position": 3,
+    "effectCategory": 43,
+    "grade": 3,
+    "cost": 80,
+    "conditions": [
+      3,
+      2,
+      4,
+      4,
+      3,
+      1
+    ],
+    "effectScale": 20,
+    "effectMaxValue": 2000,
+    "nameEN": "Fullattendance"
+  },
+  {
+    "id": 186,
+    "nameCN": "五雷",
+    "tree": 3,
+    "icon": 0,
+    "unknown": 100,
+    "description": "九天五雷，听我号令！",
+    "prerequisites": [
+      3,
+      4,
+      1
+    ],
+    "tier": 1,
+    "position": 4,
+    "effectCategory": 44,
+    "grade": 3,
+    "cost": 80,
+    "conditions": [
+      3,
+      4,
+      1,
+      1,
+      4,
+      2
+    ],
+    "effectScale": 20,
+    "effectMaxValue": 1500,
+    "nameEN": "Fivethunders"
+  },
+  {
+    "id": 187,
+    "nameCN": "御雷",
+    "tree": 3,
+    "icon": 0,
+    "unknown": 80,
+    "description": "",
+    "prerequisites": [
+      1,
+      2,
+      4
+    ],
+    "tier": 3,
+    "position": 4,
+    "effectCategory": 45,
+    "grade": 3,
+    "cost": 80,
+    "conditions": [
+      1,
+      2,
+      4,
+      3,
+      4,
+      2
+    ],
+    "effectScale": 8,
+    "effectMaxValue": 80,
+    "nameEN": "Thunder"
+  },
+  {
+    "id": 188,
+    "nameCN": "玄冰",
+    "tree": 3,
+    "icon": 0,
+    "unknown": 100,
+    "description": "",
+    "prerequisites": [
+      4,
+      1,
+      1
+    ],
+    "tier": 2,
+    "position": 4,
+    "effectCategory": 46,
+    "grade": 3,
+    "cost": 80,
+    "conditions": [
+      4,
+      1,
+      1,
+      2,
+      4,
+      3
+    ],
+    "effectScale": 20,
+    "effectMaxValue": 1500,
+    "nameEN": "Mysticice"
+  },
+  {
+    "id": 189,
+    "nameCN": "控水",
+    "tree": 3,
+    "icon": 0,
+    "unknown": 80,
+    "description": "",
+    "prerequisites": [
+      1,
+      4,
+      3
+    ],
+    "tier": 4,
+    "position": 2,
+    "effectCategory": 47,
+    "grade": 3,
+    "cost": 80,
+    "conditions": [
+      1,
+      4,
+      3,
+      4,
+      2,
+      2
+    ],
+    "effectScale": 8,
+    "effectMaxValue": 80,
+    "nameEN": "Controlwater"
+  },
+  {
+    "id": 190,
+    "nameCN": "炎狱",
+    "tree": 3,
+    "icon": 0,
+    "unknown": 100,
+    "description": "",
+    "prerequisites": [
+      1,
+      2,
+      1
+    ],
+    "tier": 3,
+    "position": 4,
+    "effectCategory": 48,
+    "grade": 3,
+    "cost": 80,
+    "conditions": [
+      1,
+      2,
+      1,
+      3,
+      4,
+      4
+    ],
+    "effectScale": 20,
+    "effectMaxValue": 1500,
+    "nameEN": "Flaminghell"
+  },
+  {
+    "id": 191,
+    "nameCN": "驭火",
+    "tree": 3,
+    "icon": 0,
+    "unknown": 80,
+    "description": "",
+    "prerequisites": [
+      2,
+      2,
+      4
+    ],
+    "tier": 1,
+    "position": 4,
+    "effectCategory": 49,
+    "grade": 3,
+    "cost": 80,
+    "conditions": [
+      2,
+      2,
+      4,
+      1,
+      4,
+      3
+    ],
+    "effectScale": 8,
+    "effectMaxValue": 80,
+    "nameEN": "Controlfire"
+  },
+  {
+    "id": 192,
+    "nameCN": "木遁",
+    "tree": 3,
+    "icon": 0,
+    "unknown": 100,
+    "description": "",
+    "prerequisites": [
+      3,
+      4,
+      1
+    ],
+    "tier": 4,
+    "position": 1,
+    "effectCategory": 50,
+    "grade": 3,
+    "cost": 80,
+    "conditions": [
+      3,
+      4,
+      1,
+      4,
+      1,
+      2
+    ],
+    "effectScale": 20,
+    "effectMaxValue": 1500,
+    "nameEN": "Woodescape"
+  },
+  {
+    "id": 193,
+    "nameCN": "生木",
+    "tree": 3,
+    "icon": 0,
+    "unknown": 80,
+    "description": "",
+    "prerequisites": [
+      1,
+      4,
+      2
+    ],
+    "tier": 2,
+    "position": 4,
+    "effectCategory": 51,
+    "grade": 3,
+    "cost": 80,
+    "conditions": [
+      1,
+      4,
+      2,
+      2,
+      4,
+      3
+    ],
+    "effectScale": 8,
+    "effectMaxValue": 80,
+    "nameEN": "Growwood"
+  },
+  {
+    "id": 194,
+    "nameCN": "地裂",
+    "tree": 3,
+    "icon": 0,
+    "unknown": 100,
+    "description": "",
+    "prerequisites": [
+      3,
+      1,
+      2
+    ],
+    "tier": 1,
+    "position": 4,
+    "effectCategory": 52,
+    "grade": 3,
+    "cost": 80,
+    "conditions": [
+      3,
+      1,
+      2,
+      1,
+      4,
+      4
+    ],
+    "effectScale": 20,
+    "effectMaxValue": 1500,
+    "nameEN": "Earthsplit"
+  },
+  {
+    "id": 195,
+    "nameCN": "镇土",
+    "tree": 3,
+    "icon": 0,
+    "unknown": 80,
+    "description": "",
+    "prerequisites": [
+      2,
+      2,
+      4
+    ],
+    "tier": 3,
+    "position": 4,
+    "effectCategory": 53,
+    "grade": 3,
+    "cost": 80,
+    "conditions": [
+      2,
+      2,
+      4,
+      3,
+      4,
+      1
+    ],
+    "effectScale": 8,
+    "effectMaxValue": 80,
+    "nameEN": "Suppressearth"
+  },
+  {
+    "id": 196,
+    "nameCN": "魂裂",
+    "tree": 3,
+    "icon": 0,
+    "unknown": 100,
+    "description": "",
+    "prerequisites": [
+      2,
+      4,
+      1
+    ],
+    "tier": 4,
+    "position": 1,
+    "effectCategory": 54,
+    "grade": 3,
+    "cost": 80,
+    "conditions": [
+      2,
+      4,
+      1,
+      4,
+      1,
+      3
+    ],
+    "effectScale": 20,
+    "effectMaxValue": 1500,
+    "nameEN": "Soulsplit"
+  },
+  {
+    "id": 197,
+    "nameCN": "御魂",
+    "tree": 3,
+    "icon": 0,
+    "unknown": 80,
+    "description": "",
+    "prerequisites": [
+      4,
+      1,
+      2
+    ],
+    "tier": 3,
+    "position": 2,
+    "effectCategory": 55,
+    "grade": 3,
+    "cost": 80,
+    "conditions": [
+      4,
+      1,
+      2,
+      3,
+      2,
+      4
+    ],
+    "effectScale": 8,
+    "effectMaxValue": 80,
+    "nameEN": "Guard soul"
+  },
+  {
+    "id": 198,
+    "nameCN": "天谴",
+    "tree": 3,
+    "icon": 0,
+    "unknown": 100,
+    "description": "",
+    "prerequisites": [
+      1,
+      2,
+      1
+    ],
+    "tier": 4,
+    "position": 4,
+    "effectCategory": 56,
+    "grade": 3,
+    "cost": 80,
+    "conditions": [
+      1,
+      2,
+      1,
+      4,
+      4,
+      3
+    ],
+    "effectScale": 20,
+    "effectMaxValue": 1500,
+    "nameEN": "Divinepunishment"
+  },
+  {
+    "id": 199,
+    "nameCN": "天庇",
+    "tree": 3,
+    "icon": 0,
+    "unknown": 80,
+    "description": "",
+    "prerequisites": [
+      3,
+      1,
+      4
+    ],
+    "tier": 4,
+    "position": 2,
+    "effectCategory": 57,
+    "grade": 3,
+    "cost": 80,
+    "conditions": [
+      3,
+      1,
+      4,
+      4,
+      2,
+      2
+    ],
+    "effectScale": 8,
+    "effectMaxValue": 80,
+    "nameEN": "Divinedefense"
+  },
+  {
+    "id": 200,
+    "nameCN": "暗蚀",
+    "tree": 3,
+    "icon": 0,
+    "unknown": 100,
+    "description": "源自内心的黑暗！",
+    "prerequisites": [
+      4,
+      2,
+      4
+    ],
+    "tier": 1,
+    "position": 3,
+    "effectCategory": 58,
+    "grade": 3,
+    "cost": 80,
+    "conditions": [
+      4,
+      2,
+      4,
+      1,
+      3,
+      1
+    ],
+    "effectScale": 20,
+    "effectMaxValue": 1500,
+    "nameEN": "Darkerosion"
+  },
+  {
+    "id": 201,
+    "nameCN": "幽护",
+    "tree": 3,
+    "icon": 0,
+    "unknown": 80,
+    "description": "",
+    "prerequisites": [
+      1,
+      3,
+      2
+    ],
+    "tier": 4,
+    "position": 2,
+    "effectCategory": 59,
+    "grade": 3,
+    "cost": 80,
+    "conditions": [
+      1,
+      3,
+      2,
+      4,
+      2,
+      4
+    ],
+    "effectScale": 8,
+    "effectMaxValue": 80,
+    "nameEN": "Gloomyprotection"
+  },
+  {
+    "id": 202,
+    "nameCN": "广域",
+    "tree": 3,
+    "icon": 0,
+    "unknown": 100,
+    "description": "",
+    "prerequisites": [
+      3,
+      1,
+      2
+    ],
+    "tier": 4,
+    "position": 1,
+    "effectCategory": 60,
+    "grade": 3,
+    "cost": 80,
+    "conditions": [
+      3,
+      1,
+      2,
+      4,
+      1,
+      4
+    ],
+    "effectScale": 25,
+    "effectMaxValue": 1500,
+    "nameEN": "Widearea"
+  },
+  {
+    "id": 203,
+    "nameCN": "天将",
+    "tree": 3,
+    "icon": 0,
+    "unknown": 100,
+    "description": "",
+    "prerequisites": [
+      4,
+      3,
+      4
+    ],
+    "tier": 1,
+    "position": 2,
+    "effectCategory": 61,
+    "grade": 3,
+    "cost": 80,
+    "conditions": [
+      4,
+      3,
+      4,
+      1,
+      2,
+      1
+    ],
+    "effectScale": 25,
+    "effectMaxValue": 1500,
+    "nameEN": "Heavenlygeneral"
+  },
+  {
+    "id": 204,
+    "nameCN": "武师",
+    "tree": 3,
+    "icon": 0,
+    "unknown": 100,
+    "description": "",
+    "prerequisites": [
+      2,
+      1,
+      1
+    ],
+    "tier": 4,
+    "position": 4,
+    "effectCategory": 62,
+    "grade": 3,
+    "cost": 80,
+    "conditions": [
+      2,
+      1,
+      1,
+      4,
+      4,
+      3
+    ],
+    "effectScale": 25,
+    "effectMaxValue": 1500,
+    "nameEN": "Martialmaster"
+  },
+  {
+    "id": 205,
+    "nameCN": "符仙",
+    "tree": 3,
+    "icon": 0,
+    "unknown": 100,
+    "description": "",
+    "prerequisites": [
+      3,
+      1,
+      4
+    ],
+    "tier": 1,
+    "position": 2,
+    "effectCategory": 63,
+    "grade": 3,
+    "cost": 80,
+    "conditions": [
+      3,
+      1,
+      4,
+      1,
+      2,
+      4
+    ],
+    "effectScale": 25,
+    "effectMaxValue": 1500,
+    "nameEN": "Runeimmortal"
+  },
+  {
+    "id": 206,
+    "nameCN": "穿云",
+    "tree": 3,
+    "icon": 0,
+    "unknown": 100,
+    "description": "",
+    "prerequisites": [
+      4,
+      3,
+      2
+    ],
+    "tier": 1,
+    "position": 1,
+    "effectCategory": 64,
+    "grade": 3,
+    "cost": 80,
+    "conditions": [
+      4,
+      3,
+      2,
+      1,
+      1,
+      4
+    ],
+    "effectScale": 25,
+    "effectMaxValue": 1500,
+    "nameEN": "Piercecloud"
+  },
+  {
+    "id": 207,
+    "nameCN": "仙方",
+    "tree": 3,
+    "icon": 0,
+    "unknown": 100,
+    "description": "",
+    "prerequisites": [
+      3,
+      4,
+      1
+    ],
+    "tier": 4,
+    "position": 1,
+    "effectCategory": 65,
+    "grade": 3,
+    "cost": 80,
+    "conditions": [
+      3,
+      4,
+      1,
+      4,
+      1,
+      2
+    ],
+    "effectScale": 25,
+    "effectMaxValue": 1500,
+    "nameEN": "Immortalformula"
+  },
+  {
+    "id": 208,
+    "nameCN": "灵能",
+    "tree": 3,
+    "icon": 0,
+    "unknown": 100,
+    "description": "",
+    "prerequisites": [
+      3,
+      4,
+      2
+    ],
+    "tier": 4,
+    "position": 1,
+    "effectCategory": 66,
+    "grade": 3,
+    "cost": 80,
+    "conditions": [
+      3,
+      4,
+      2,
+      4,
+      1,
+      1
+    ],
+    "effectScale": 25,
+    "effectMaxValue": 1500,
+    "nameEN": "Spiritualenergy"
+  },
+  {
+    "id": 209,
+    "nameCN": "神子",
+    "tree": 3,
+    "icon": 0,
+    "unknown": 100,
+    "description": "",
+    "prerequisites": [
+      1,
+      2,
+      1
+    ],
+    "tier": 4,
+    "position": 4,
+    "effectCategory": 67,
+    "grade": 3,
+    "cost": 80,
+    "conditions": [
+      1,
+      2,
+      1,
+      4,
+      4,
+      3
+    ],
+    "effectScale": 25,
+    "effectMaxValue": 1500,
+    "nameEN": "Divinechild"
+  },
+  {
+    "id": 210,
+    "nameCN": "斗王",
+    "tree": 3,
+    "icon": 0,
+    "unknown": 100,
+    "description": "",
+    "prerequisites": [
+      4,
+      1,
+      3
+    ],
+    "tier": 4,
+    "position": 2,
+    "effectCategory": 68,
+    "grade": 3,
+    "cost": 80,
+    "conditions": [
+      4,
+      1,
+      3,
+      4,
+      2,
+      1
+    ],
+    "effectScale": 25,
+    "effectMaxValue": 1500,
+    "nameEN": "Fightingking"
+  },
+  {
+    "id": 211,
+    "nameCN": "上忍",
+    "tree": 3,
+    "icon": 0,
+    "unknown": 100,
+    "description": "",
+    "prerequisites": [
+      3,
+      4,
+      1
+    ],
+    "tier": 1,
+    "position": 2,
+    "effectCategory": 69,
+    "grade": 3,
+    "cost": 80,
+    "conditions": [
+      3,
+      4,
+      1,
+      1,
+      2,
+      4
+    ],
+    "effectScale": 25,
+    "effectMaxValue": 1500,
+    "nameEN": "Jonin"
+  },
+  {
+    "id": 212,
+    "nameCN": "魔导",
+    "tree": 3,
+    "icon": 0,
+    "unknown": 100,
+    "description": "",
+    "prerequisites": [
+      3,
+      2,
+      4
+    ],
+    "tier": 1,
+    "position": 1,
+    "effectCategory": 70,
+    "grade": 3,
+    "cost": 80,
+    "conditions": [
+      3,
+      2,
+      4,
+      1,
+      1,
+      4
+    ],
+    "effectScale": 25,
+    "effectMaxValue": 1500,
+    "nameEN": "Magicguide"
+  },
+  {
+    "id": 213,
+    "nameCN": "小成",
+    "tree": 3,
+    "icon": 0,
+    "unknown": 100,
+    "description": "",
+    "prerequisites": [
+      2,
+      1,
+      4
+    ],
+    "tier": 1,
+    "position": 3,
+    "effectCategory": 71,
+    "grade": 3,
+    "cost": 80,
+    "conditions": [
+      2,
+      1,
+      4,
+      1,
+      3,
+      4
+    ],
+    "effectScale": 25,
+    "effectMaxValue": 1500,
+    "nameEN": "Minorachievement"
+  },
+  {
+    "id": 214,
+    "nameCN": "速射",
+    "tree": 3,
+    "icon": 0,
+    "unknown": 100,
+    "description": "",
+    "prerequisites": [
+      1,
+      3,
+      4
+    ],
+    "tier": 4,
+    "position": 1,
+    "effectCategory": 72,
+    "grade": 3,
+    "cost": 80,
+    "conditions": [
+      1,
+      3,
+      4,
+      4,
+      1,
+      2
+    ],
+    "effectScale": 25,
+    "effectMaxValue": 1500,
+    "nameEN": "Rapidfire"
+  },
+  {
+    "id": 215,
+    "nameCN": "王牌",
+    "tree": 3,
+    "icon": 0,
+    "unknown": 100,
+    "description": "",
+    "prerequisites": [
+      3,
+      4,
+      2
+    ],
+    "tier": 1,
+    "position": 1,
+    "effectCategory": 73,
+    "grade": 3,
+    "cost": 80,
+    "conditions": [
+      3,
+      4,
+      2,
+      1,
+      1,
+      4
+    ],
+    "effectScale": 25,
+    "effectMaxValue": 1500,
+    "nameEN": "Trumpcard"
+  },
+  {
+    "id": 216,
+    "nameCN": "唤神",
+    "tree": 3,
+    "icon": 0,
+    "unknown": 100,
+    "description": "",
+    "prerequisites": [
+      2,
+      4,
+      1
+    ],
+    "tier": 4,
+    "position": 3,
+    "effectCategory": 74,
+    "grade": 3,
+    "cost": 80,
+    "conditions": [
+      2,
+      4,
+      1,
+      4,
+      3,
+      1
+    ],
+    "effectScale": 25,
+    "effectMaxValue": 1500,
+    "nameEN": "Summongod"
+  },
+  {
+    "id": 217,
+    "nameCN": "医仙",
+    "tree": 3,
+    "icon": 0,
+    "unknown": 100,
+    "description": "治病救人，当世无双！",
+    "prerequisites": [
+      1,
+      1,
+      4
+    ],
+    "tier": 4,
+    "position": 3,
+    "effectCategory": 75,
+    "grade": 3,
+    "cost": 80,
+    "conditions": [
+      1,
+      1,
+      4,
+      4,
+      3,
+      2
+    ],
+    "effectScale": 25,
+    "effectMaxValue": 1500,
+    "nameEN": "Immortaldoctor"
+  },
+  {
+    "id": 218,
+    "nameCN": "剑破",
+    "tree": 3,
+    "icon": 0,
+    "unknown": 100,
+    "description": "",
+    "prerequisites": [
+      1,
+      1,
+      4
+    ],
+    "tier": 3,
+    "position": 2,
+    "effectCategory": 93,
+    "grade": 3,
+    "cost": 80,
+    "conditions": [
+      1,
+      1,
+      4,
+      3,
+      2,
+      4
+    ],
+    "effectScale": 25,
+    "effectMaxValue": 1500,
+    "nameEN": "Swordbreak"
+  },
+  {
+    "id": 219,
+    "nameCN": "君侯",
+    "tree": 3,
+    "icon": 0,
+    "unknown": 100,
+    "description": "长兵在手，万世无疆！",
+    "prerequisites": [
+      3,
+      1,
+      2
+    ],
+    "tier": 1,
+    "position": 4,
+    "effectCategory": 92,
+    "grade": 3,
+    "cost": 80,
+    "conditions": [
+      3,
+      1,
+      2,
+      1,
+      4,
+      4
+    ],
+    "effectScale": 25,
+    "effectMaxValue": 1500,
+    "nameEN": "Lord"
+  },
+  {
+    "id": 220,
+    "nameCN": "书灵",
+    "tree": 3,
+    "icon": 0,
+    "unknown": 100,
+    "description": "",
+    "prerequisites": [
+      2,
+      1,
+      1
+    ],
+    "tier": 4,
+    "position": 4,
+    "effectCategory": 100,
+    "grade": 3,
+    "cost": 80,
+    "conditions": [
+      2,
+      1,
+      1,
+      4,
+      4,
+      3
+    ],
+    "effectScale": 25,
+    "effectMaxValue": 1500,
+    "nameEN": "Bookspirit"
+  },
+  {
+    "id": 221,
+    "nameCN": "王佐",
+    "tree": 3,
+    "icon": 0,
+    "unknown": 100,
+    "description": "持杖者，济世王佐！",
+    "prerequisites": [
+      4,
+      4,
+      3
+    ],
+    "tier": 1,
+    "position": 2,
+    "effectCategory": 96,
+    "grade": 3,
+    "cost": 80,
+    "conditions": [
+      4,
+      4,
+      3,
+      1,
+      2,
+      1
+    ],
+    "effectScale": 25,
+    "effectMaxValue": 1500,
+    "nameEN": "Aid"
+  },
+  {
+    "id": 222,
+    "nameCN": "爆头",
+    "tree": 3,
+    "icon": 0,
+    "unknown": 100,
+    "description": "",
+    "prerequisites": [
+      3,
+      2,
+      1
+    ],
+    "tier": 4,
+    "position": 4,
+    "effectCategory": 98,
+    "grade": 3,
+    "cost": 80,
+    "conditions": [
+      3,
+      2,
+      1,
+      4,
+      4,
+      1
+    ],
+    "effectScale": 25,
+    "effectMaxValue": 1500,
+    "nameEN": "Headshot"
+  },
+  {
+    "id": 223,
+    "nameCN": "轰炸",
+    "tree": 3,
+    "icon": 0,
+    "unknown": 100,
+    "description": "",
+    "prerequisites": [
+      1,
+      4,
+      4
+    ],
+    "tier": 1,
+    "position": 3,
+    "effectCategory": 99,
+    "grade": 3,
+    "cost": 80,
+    "conditions": [
+      1,
+      4,
+      4,
+      1,
+      3,
+      2
+    ],
+    "effectScale": 25,
+    "effectMaxValue": 1500,
+    "nameEN": "Bomb"
+  },
+  {
+    "id": 224,
+    "nameCN": "拳破",
+    "tree": 3,
+    "icon": 0,
+    "unknown": 100,
+    "description": "",
+    "prerequisites": [
+      2,
+      4,
+      3
+    ],
+    "tier": 4,
+    "position": 1,
+    "effectCategory": 94,
+    "grade": 3,
+    "cost": 80,
+    "conditions": [
+      2,
+      4,
+      3,
+      4,
+      1,
+      1
+    ],
+    "effectScale": 25,
+    "effectMaxValue": 1500,
+    "nameEN": "Fistbreak"
+  },
+  {
+    "id": 225,
+    "nameCN": "影破",
+    "tree": 3,
+    "icon": 0,
+    "unknown": 100,
+    "description": "",
+    "prerequisites": [
+      3,
+      1,
+      1
+    ],
+    "tier": 4,
+    "position": 2,
+    "effectCategory": 95,
+    "grade": 3,
+    "cost": 80,
+    "conditions": [
+      3,
+      1,
+      1,
+      4,
+      2,
+      4
+    ],
+    "effectScale": 25,
+    "effectMaxValue": 1500,
+    "nameEN": "Shadowbreak"
+  },
+  {
+    "id": 226,
+    "nameCN": "元神",
+    "tree": 3,
+    "icon": 0,
+    "unknown": 100,
+    "description": "",
+    "prerequisites": [
+      4,
+      2,
+      4
+    ],
+    "tier": 1,
+    "position": 3,
+    "effectCategory": 97,
+    "grade": 3,
+    "cost": 80,
+    "conditions": [
+      4,
+      2,
+      4,
+      1,
+      3,
+      1
+    ],
+    "effectScale": 25,
+    "effectMaxValue": 1500,
+    "nameEN": "Originalsoul"
+  },
+  {
+    "id": 227,
+    "nameCN": "器魂",
+    "tree": 3,
+    "icon": 0,
+    "unknown": 100,
+    "description": "操作一切可操作的事物！",
+    "prerequisites": [
+      3,
+      1,
+      1
+    ],
+    "tier": 4,
+    "position": 4,
+    "effectCategory": 101,
+    "grade": 3,
+    "cost": 80,
+    "conditions": [
+      3,
+      1,
+      1,
+      4,
+      4,
+      2
+    ],
+    "effectScale": 25,
+    "effectMaxValue": 1500,
+    "nameEN": "Artifact soul"
+  },
+  {
+    "id": 228,
+    "nameCN": "亲和",
+    "tree": 3,
+    "icon": 0,
+    "unknown": 100,
+    "description": "",
+    "prerequisites": [
+      1,
+      4,
+      4
+    ],
+    "tier": 3,
+    "position": 3,
+    "effectCategory": 137,
+    "grade": 3,
+    "cost": 80,
+    "conditions": [
+      1,
+      4,
+      4,
+      3,
+      3,
+      2
+    ],
+    "effectScale": 25,
+    "effectMaxValue": 2500,
+    "nameEN": "Harmony"
+  },
+  {
+    "id": 229,
+    "nameCN": "勤政",
+    "tree": 3,
+    "icon": 0,
+    "unknown": 100,
+    "description": "",
+    "prerequisites": [
+      4,
+      1,
+      3
+    ],
+    "tier": 2,
+    "position": 4,
+    "effectCategory": 138,
+    "grade": 3,
+    "cost": 80,
+    "conditions": [
+      4,
+      1,
+      3,
+      2,
+      4,
+      3
+    ],
+    "effectScale": 25,
+    "effectMaxValue": 2500,
+    "nameEN": "Diligentgovernment"
+  },
+  {
+    "id": 230,
+    "nameCN": "仙锤",
+    "tree": 3,
+    "icon": 0,
+    "unknown": 100,
+    "description": "",
+    "prerequisites": [
+      1,
+      4,
+      3
+    ],
+    "tier": 4,
+    "position": 2,
+    "effectCategory": 139,
+    "grade": 3,
+    "cost": 80,
+    "conditions": [
+      1,
+      4,
+      3,
+      4,
+      2,
+      3
+    ],
+    "effectScale": 25,
+    "effectMaxValue": 2500,
+    "nameEN": "Immortalhammer"
+  },
+  {
+    "id": 231,
+    "nameCN": "通学",
+    "tree": 3,
+    "icon": 0,
+    "unknown": 100,
+    "description": "",
+    "prerequisites": [
+      1,
+      2,
+      4
+    ],
+    "tier": 3,
+    "position": 4,
+    "effectCategory": 140,
+    "grade": 3,
+    "cost": 80,
+    "conditions": [
+      1,
+      2,
+      4,
+      3,
+      4,
+      3
+    ],
+    "effectScale": 25,
+    "effectMaxValue": 2500,
+    "nameEN": "Comprehensivestudy"
+  },
+  {
+    "id": 232,
+    "nameCN": "文曲",
+    "tree": 3,
+    "icon": 0,
+    "unknown": 100,
+    "description": "因为上辈子是文曲星！",
+    "prerequisites": [
+      3,
+      2,
+      4
+    ],
+    "tier": 1,
+    "position": 4,
+    "effectCategory": 141,
+    "grade": 3,
+    "cost": 80,
+    "conditions": [
+      3,
+      2,
+      4,
+      1,
+      4,
+      3
+    ],
+    "effectScale": 25,
+    "effectMaxValue": 2500,
+    "nameEN": "Literarystar"
+  },
+  {
+    "id": 233,
+    "nameCN": "架构",
+    "tree": 3,
+    "icon": 0,
+    "unknown": 100,
+    "description": "",
+    "prerequisites": [
+      3,
+      3,
+      4
+    ],
+    "tier": 4,
+    "position": 1,
+    "effectCategory": 142,
+    "grade": 3,
+    "cost": 80,
+    "conditions": [
+      3,
+      3,
+      4,
+      4,
+      1,
+      2
+    ],
+    "effectScale": 25,
+    "effectMaxValue": 2500,
+    "nameEN": "Architecture"
+  },
+  {
+    "id": 234,
+    "nameCN": "商贾",
+    "tree": 3,
+    "icon": 0,
+    "unknown": 100,
+    "description": "",
+    "prerequisites": [
+      1,
+      4,
+      3
+    ],
+    "tier": 4,
+    "position": 2,
+    "effectCategory": 143,
+    "grade": 3,
+    "cost": 80,
+    "conditions": [
+      1,
+      4,
+      3,
+      4,
+      2,
+      3
+    ],
+    "effectScale": 25,
+    "effectMaxValue": 2500,
+    "nameEN": "Merchant"
+  },
+  {
+    "id": 235,
+    "nameCN": "熔炼",
+    "tree": 3,
+    "icon": 0,
+    "unknown": 100,
+    "description": "",
+    "prerequisites": [
+      3,
+      1,
+      2
+    ],
+    "tier": 4,
+    "position": 4,
+    "effectCategory": 144,
+    "grade": 3,
+    "cost": 80,
+    "conditions": [
+      3,
+      1,
+      2,
+      4,
+      4,
+      3
+    ],
+    "effectScale": 25,
+    "effectMaxValue": 2500,
+    "nameEN": "Smelt"
+  },
+  {
+    "id": 236,
+    "nameCN": "军神",
+    "tree": 3,
+    "icon": 0,
+    "unknown": 100,
+    "description": "",
+    "prerequisites": [
+      1,
+      4,
+      2
+    ],
+    "tier": 3,
+    "position": 4,
+    "effectCategory": 145,
+    "grade": 3,
+    "cost": 80,
+    "conditions": [
+      1,
+      4,
+      2,
+      3,
+      4,
+      3
+    ],
+    "effectScale": 25,
+    "effectMaxValue": 2500,
+    "nameEN": "Militarygod"
+  },
+  {
+    "id": 237,
+    "nameCN": "专家",
+    "tree": 3,
+    "icon": 0,
+    "unknown": 100,
+    "description": "",
+    "prerequisites": [
+      2,
+      1,
+      4
+    ],
+    "tier": 4,
+    "position": 3,
+    "effectCategory": 146,
+    "grade": 3,
+    "cost": 80,
+    "conditions": [
+      2,
+      1,
+      4,
+      4,
+      3,
+      3
+    ],
+    "effectScale": 25,
+    "effectMaxValue": 2500,
+    "nameEN": "Expert"
+  },
+  {
+    "id": 238,
+    "nameCN": "灭世",
+    "tree": 4,
+    "icon": 0,
+    "unknown": 180,
+    "description": "",
+    "prerequisites": [
+      1,
+      1,
+      4
+    ],
+    "tier": 3,
+    "position": 1,
+    "effectCategory": 12,
+    "grade": 4,
+    "cost": 160,
+    "conditions": [
+      1,
+      1,
+      4,
+      3,
+      1,
+      4
+    ],
+    "effectScale": 6,
+    "effectMaxValue": 100,
+    "nameEN": "Destroyworld"
+  },
+  {
+    "id": 239,
+    "nameCN": "战圣",
+    "tree": 4,
+    "icon": 0,
+    "unknown": 180,
+    "description": "",
+    "prerequisites": [
+      1,
+      1,
+      4
+    ],
+    "tier": 1,
+    "position": 4,
+    "effectCategory": 13,
+    "grade": 4,
+    "cost": 160,
+    "conditions": [
+      1,
+      1,
+      4,
+      1,
+      4,
+      3
+    ],
+    "effectScale": 40,
+    "effectMaxValue": 5000,
+    "nameEN": "Warsaint"
+  },
+  {
+    "id": 240,
+    "nameCN": "噬魂",
+    "tree": 4,
+    "icon": 0,
+    "unknown": 180,
+    "description": "",
+    "prerequisites": [
+      3,
+      1,
+      4
+    ],
+    "tier": 4,
+    "position": 4,
+    "effectCategory": 14,
+    "grade": 4,
+    "cost": 160,
+    "conditions": [
+      3,
+      1,
+      4,
+      4,
+      4,
+      2
+    ],
+    "effectScale": 3,
+    "effectMaxValue": 300,
+    "nameEN": "Devoursoul"
+  },
+  {
+    "id": 241,
+    "nameCN": "济世",
+    "tree": 4,
+    "icon": 0,
+    "unknown": 180,
+    "description": "改生死，逆天命！",
+    "prerequisites": [
+      4,
+      4,
+      1
+    ],
+    "tier": 4,
+    "position": 2,
+    "effectCategory": 16,
+    "grade": 4,
+    "cost": 160,
+    "conditions": [
+      4,
+      4,
+      1,
+      4,
+      2,
+      3
+    ],
+    "effectScale": 20,
+    "effectMaxValue": 1500,
+    "nameEN": "Salvation"
+  },
+  {
+    "id": 242,
+    "nameCN": "圣卫",
+    "tree": 4,
+    "icon": 0,
+    "unknown": 180,
+    "description": "",
+    "prerequisites": [
+      2,
+      2,
+      4
+    ],
+    "tier": 2,
+    "position": 4,
+    "effectCategory": 17,
+    "grade": 4,
+    "cost": 160,
+    "conditions": [
+      2,
+      2,
+      4,
+      2,
+      4,
+      3
+    ],
+    "effectScale": 20,
+    "effectMaxValue": 1500,
+    "nameEN": "Holyguard"
+  },
+  {
+    "id": 243,
+    "nameCN": "破虚",
+    "tree": 4,
+    "icon": 0,
+    "unknown": 180,
+    "description": "",
+    "prerequisites": [
+      3,
+      1,
+      4
+    ],
+    "tier": 1,
+    "position": 1,
+    "effectCategory": 18,
+    "grade": 4,
+    "cost": 160,
+    "conditions": [
+      3,
+      1,
+      4,
+      1,
+      1,
+      4
+    ],
+    "effectScale": 5,
+    "effectMaxValue": 1000,
+    "nameEN": "Breakvoid"
+  },
+  {
+    "id": 244,
+    "nameCN": "匿空",
+    "tree": 4,
+    "icon": 0,
+    "unknown": 180,
+    "description": "",
+    "prerequisites": [
+      2,
+      3,
+      2
+    ],
+    "tier": 4,
+    "position": 2,
+    "effectCategory": 19,
+    "grade": 4,
+    "cost": 160,
+    "conditions": [
+      2,
+      3,
+      2,
+      4,
+      2,
+      4
+    ],
+    "effectScale": 5,
+    "effectMaxValue": 1000,
+    "nameEN": "Hidevoid"
+  },
+  {
+    "id": 245,
+    "nameCN": "武圣",
+    "tree": 4,
+    "icon": 0,
+    "unknown": 180,
+    "description": "武者之极方为圣！",
+    "prerequisites": [
+      3,
+      4,
+      4
+    ],
+    "tier": 1,
+    "position": 1,
+    "effectCategory": 20,
+    "grade": 4,
+    "cost": 160,
+    "conditions": [
+      3,
+      4,
+      4,
+      1,
+      1,
+      1
+    ],
+    "effectScale": 20,
+    "effectMaxValue": 1500,
+    "nameEN": "Martialsaint"
+  },
+  {
+    "id": 246,
+    "nameCN": "守虚",
+    "tree": 4,
+    "icon": 0,
+    "unknown": 100,
+    "description": "",
+    "prerequisites": [
+      3,
+      4,
+      2
+    ],
+    "tier": 4,
+    "position": 2,
+    "effectCategory": 21,
+    "grade": 4,
+    "cost": 160,
+    "conditions": [
+      3,
+      4,
+      2,
+      4,
+      2,
+      2
+    ],
+    "effectScale": 8,
+    "effectMaxValue": 80,
+    "nameEN": "Guardvoid"
+  },
+  {
+    "id": 247,
+    "nameCN": "法神",
+    "tree": 4,
+    "icon": 0,
+    "unknown": 180,
+    "description": "万法归宗之圣体！",
+    "prerequisites": [
+      1,
+      1,
+      4
+    ],
+    "tier": 4,
+    "position": 1,
+    "effectCategory": 22,
+    "grade": 4,
+    "cost": 160,
+    "conditions": [
+      1,
+      1,
+      4,
+      4,
+      1,
+      3
+    ],
+    "effectScale": 20,
+    "effectMaxValue": 1500,
+    "nameEN": "Dharmagod"
+  },
+  {
+    "id": 248,
+    "nameCN": "封神",
+    "tree": 4,
+    "icon": 0,
+    "unknown": 100,
+    "description": "",
+    "prerequisites": [
+      4,
+      4,
+      3
+    ],
+    "tier": 2,
+    "position": 2,
+    "effectCategory": 23,
+    "grade": 4,
+    "cost": 160,
+    "conditions": [
+      4,
+      4,
+      3,
+      2,
+      2,
+      2
+    ],
+    "effectScale": 8,
+    "effectMaxValue": 80,
+    "nameEN": "Confergod"
+  },
+  {
+    "id": 249,
+    "nameCN": "裂宇",
+    "tree": 4,
+    "icon": 0,
+    "unknown": 180,
+    "description": "",
+    "prerequisites": [
+      3,
+      4,
+      1
+    ],
+    "tier": 4,
+    "position": 1,
+    "effectCategory": 25,
+    "grade": 4,
+    "cost": 160,
+    "conditions": [
+      3,
+      4,
+      1,
+      4,
+      1,
+      1
+    ],
+    "effectScale": 20,
+    "effectMaxValue": 2000,
+    "nameEN": "Splituniverse"
+  },
+  {
+    "id": 250,
+    "nameCN": "穹灭",
+    "tree": 4,
+    "icon": 0,
+    "unknown": 180,
+    "description": "",
+    "prerequisites": [
+      3,
+      1,
+      1
+    ],
+    "tier": 1,
+    "position": 4,
+    "effectCategory": 26,
+    "grade": 4,
+    "cost": 160,
+    "conditions": [
+      3,
+      1,
+      1,
+      1,
+      4,
+      4
+    ],
+    "effectScale": 10,
+    "effectMaxValue": 1000,
+    "nameEN": "Domedestroy"
+  },
+  {
+    "id": 251,
+    "nameCN": "圣庇",
+    "tree": 4,
+    "icon": 0,
+    "unknown": 100,
+    "description": "",
+    "prerequisites": [
+      2,
+      2,
+      4
+    ],
+    "tier": 2,
+    "position": 3,
+    "effectCategory": 27,
+    "grade": 4,
+    "cost": 160,
+    "conditions": [
+      2,
+      2,
+      4,
+      2,
+      3,
+      4
+    ],
+    "effectScale": 4,
+    "effectMaxValue": 80,
+    "nameEN": "Holydefense"
+  },
+  {
+    "id": 252,
+    "nameCN": "道具",
+    "tree": 4,
+    "icon": 0,
+    "unknown": 180,
+    "description": "",
+    "prerequisites": [
+      1,
+      3,
+      4
+    ],
+    "tier": 2,
+    "position": 4,
+    "effectCategory": 30,
+    "grade": 4,
+    "cost": 160,
+    "conditions": [
+      1,
+      3,
+      4,
+      2,
+      4,
+      4
+    ],
+    "effectScale": 20,
+    "effectMaxValue": 1500,
+    "nameEN": "Prop"
+  },
+  {
+    "id": 253,
+    "nameCN": "神裔",
+    "tree": 4,
+    "icon": 0,
+    "unknown": 180,
+    "description": "",
+    "prerequisites": [
+      3,
+      4,
+      4
+    ],
+    "tier": 1,
+    "position": 2,
+    "effectCategory": 31,
+    "grade": 4,
+    "cost": 160,
+    "conditions": [
+      3,
+      4,
+      4,
+      1,
+      2,
+      4
+    ],
+    "effectScale": 20,
+    "effectMaxValue": 1200,
+    "nameEN": "Divine"
+  },
+  {
+    "id": 254,
+    "nameCN": "恒在",
+    "tree": 4,
+    "icon": 0,
+    "unknown": 180,
+    "description": "",
+    "prerequisites": [
+      2,
+      4,
+      4
+    ],
+    "tier": 1,
+    "position": 3,
+    "effectCategory": 33,
+    "grade": 4,
+    "cost": 160,
+    "conditions": [
+      2,
+      4,
+      4,
+      1,
+      3,
+      4
+    ],
+    "effectScale": 50,
+    "effectMaxValue": 2000,
+    "nameEN": "Eternalexistence"
+  },
+  {
+    "id": 255,
+    "nameCN": "恒固",
+    "tree": 4,
+    "icon": 0,
+    "unknown": 180,
+    "description": "",
+    "prerequisites": [
+      1,
+      2,
+      3
+    ],
+    "tier": 4,
+    "position": 4,
+    "effectCategory": 34,
+    "grade": 4,
+    "cost": 160,
+    "conditions": [
+      1,
+      2,
+      3,
+      4,
+      4,
+      4
+    ],
+    "effectScale": 50,
+    "effectMaxValue": 2000,
+    "nameEN": "Eternalstability"
+  },
+  {
+    "id": 256,
+    "nameCN": "禁咒",
+    "tree": 4,
+    "icon": 0,
+    "unknown": 180,
+    "description": "",
+    "prerequisites": [
+      1,
+      2,
+      4
+    ],
+    "tier": 4,
+    "position": 4,
+    "effectCategory": 35,
+    "grade": 4,
+    "cost": 160,
+    "conditions": [
+      1,
+      2,
+      4,
+      4,
+      4,
+      3
+    ],
+    "effectScale": 50,
+    "effectMaxValue": 2000,
+    "nameEN": "Forbiddenspell"
+  },
+  {
+    "id": 257,
+    "nameCN": "神兽",
+    "tree": 4,
+    "icon": 0,
+    "unknown": 180,
+    "description": "",
+    "prerequisites": [
+      3,
+      1,
+      4
+    ],
+    "tier": 4,
+    "position": 2,
+    "effectCategory": 36,
+    "grade": 4,
+    "cost": 160,
+    "conditions": [
+      3,
+      1,
+      4,
+      4,
+      2,
+      4
+    ],
+    "effectScale": 20,
+    "effectMaxValue": 1500,
+    "nameEN": "Divinebeast"
+  },
+  {
+    "id": 258,
+    "nameCN": "瞬凝",
+    "tree": 4,
+    "icon": 0,
+    "unknown": 100,
+    "description": "",
+    "prerequisites": [
+      4,
+      2,
+      4
+    ],
+    "tier": 1,
+    "position": 4,
+    "effectCategory": 37,
+    "grade": 4,
+    "cost": 160,
+    "conditions": [
+      4,
+      2,
+      4,
+      1,
+      4,
+      3
+    ],
+    "effectScale": 10,
+    "effectMaxValue": 95,
+    "nameEN": "Instantcondensation"
+  },
+  {
+    "id": 259,
+    "nameCN": "永生",
+    "tree": 4,
+    "icon": 0,
+    "unknown": 180,
+    "description": "",
+    "prerequisites": [
+      4,
+      4,
+      4
+    ],
+    "tier": 1,
+    "position": 2,
+    "effectCategory": 38,
+    "grade": 4,
+    "cost": 160,
+    "conditions": [
+      4,
+      4,
+      4,
+      1,
+      2,
+      3
+    ],
+    "effectScale": 20,
+    "effectMaxValue": 2000,
+    "nameEN": "Eternal"
+  },
+  {
+    "id": 260,
+    "nameCN": "传神",
+    "tree": 4,
+    "icon": 0,
+    "unknown": 180,
+    "description": "",
+    "prerequisites": [
+      3,
+      2,
+      4
+    ],
+    "tier": 4,
+    "position": 4,
+    "effectCategory": 39,
+    "grade": 4,
+    "cost": 160,
+    "conditions": [
+      3,
+      2,
+      4,
+      4,
+      4,
+      1
+    ],
+    "effectScale": 20,
+    "effectMaxValue": 1500,
+    "nameEN": "Transmitdivine"
+  },
+  {
+    "id": 261,
+    "nameCN": "飞升",
+    "tree": 4,
+    "icon": 0,
+    "unknown": 180,
+    "description": "",
+    "prerequisites": [
+      1,
+      4,
+      2
+    ],
+    "tier": 3,
+    "position": 4,
+    "effectCategory": 40,
+    "grade": 4,
+    "cost": 160,
+    "conditions": [
+      1,
+      4,
+      2,
+      3,
+      4,
+      4
+    ],
+    "effectScale": 20,
+    "effectMaxValue": 1500,
+    "nameEN": "Ascend"
+  },
+  {
+    "id": 262,
+    "nameCN": "领军",
+    "tree": 4,
+    "icon": 0,
+    "unknown": 180,
+    "description": "",
+    "prerequisites": [
+      2,
+      4,
+      3
+    ],
+    "tier": 4,
+    "position": 1,
+    "effectCategory": 41,
+    "grade": 4,
+    "cost": 160,
+    "conditions": [
+      2,
+      4,
+      3,
+      4,
+      1,
+      4
+    ],
+    "effectScale": 20,
+    "effectMaxValue": 1500,
+    "nameEN": "Leadarmy"
+  },
+  {
+    "id": 263,
+    "nameCN": "天命",
+    "tree": 4,
+    "icon": 0,
+    "unknown": 180,
+    "description": "",
+    "prerequisites": [
+      3,
+      1,
+      2
+    ],
+    "tier": 4,
+    "position": 4,
+    "effectCategory": 42,
+    "grade": 4,
+    "cost": 160,
+    "conditions": [
+      3,
+      1,
+      2,
+      4,
+      4,
+      4
+    ],
+    "effectScale": 5,
+    "effectMaxValue": 1000,
+    "nameEN": "Destiny"
+  },
+  {
+    "id": 264,
+    "nameCN": "卷王",
+    "tree": 4,
+    "icon": 0,
+    "unknown": 180,
+    "description": "",
+    "prerequisites": [
+      4,
+      2,
+      4
+    ],
+    "tier": 4,
+    "position": 3,
+    "effectCategory": 43,
+    "grade": 4,
+    "cost": 160,
+    "conditions": [
+      4,
+      2,
+      4,
+      4,
+      3,
+      1
+    ],
+    "effectScale": 20,
+    "effectMaxValue": 2000,
+    "nameEN": "Studyfreak"
+  },
+  {
+    "id": 265,
+    "nameCN": "雷神",
+    "tree": 4,
+    "icon": 0,
+    "unknown": 180,
+    "description": "",
+    "prerequisites": [
+      3,
+      4,
+      1
+    ],
+    "tier": 1,
+    "position": 4,
+    "effectCategory": 44,
+    "grade": 4,
+    "cost": 160,
+    "conditions": [
+      3,
+      4,
+      1,
+      1,
+      4,
+      1
+    ],
+    "effectScale": 20,
+    "effectMaxValue": 1500,
+    "nameEN": "Thunder god"
+  },
+  {
+    "id": 266,
+    "nameCN": "化雷",
+    "tree": 4,
+    "icon": 0,
+    "unknown": 100,
+    "description": "",
+    "prerequisites": [
+      2,
+      2,
+      4
+    ],
+    "tier": 3,
+    "position": 4,
+    "effectCategory": 45,
+    "grade": 4,
+    "cost": 160,
+    "conditions": [
+      2,
+      2,
+      4,
+      3,
+      4,
+      2
+    ],
+    "effectScale": 8,
+    "effectMaxValue": 80,
+    "nameEN": "Transform thunder"
+  },
+  {
+    "id": 267,
+    "nameCN": "海怒",
+    "tree": 4,
+    "icon": 0,
+    "unknown": 180,
+    "description": "",
+    "prerequisites": [
+      4,
+      1,
+      1
+    ],
+    "tier": 1,
+    "position": 4,
+    "effectCategory": 46,
+    "grade": 4,
+    "cost": 160,
+    "conditions": [
+      4,
+      1,
+      1,
+      1,
+      4,
+      3
+    ],
+    "effectScale": 20,
+    "effectMaxValue": 1500,
+    "nameEN": "Seafury"
+  },
+  {
+    "id": 268,
+    "nameCN": "化水",
+    "tree": 4,
+    "icon": 0,
+    "unknown": 100,
+    "description": "",
+    "prerequisites": [
+      2,
+      4,
+      3
+    ],
+    "tier": 4,
+    "position": 2,
+    "effectCategory": 47,
+    "grade": 4,
+    "cost": 160,
+    "conditions": [
+      2,
+      4,
+      3,
+      4,
+      2,
+      2
+    ],
+    "effectScale": 8,
+    "effectMaxValue": 80,
+    "nameEN": "Transform water"
+  },
+  {
+    "id": 269,
+    "nameCN": "焚天",
+    "tree": 4,
+    "icon": 0,
+    "unknown": 180,
+    "description": "",
+    "prerequisites": [
+      1,
+      1,
+      1
+    ],
+    "tier": 3,
+    "position": 4,
+    "effectCategory": 48,
+    "grade": 4,
+    "cost": 160,
+    "conditions": [
+      1,
+      1,
+      1,
+      3,
+      4,
+      4
+    ],
+    "effectScale": 20,
+    "effectMaxValue": 1500,
+    "nameEN": "Blazing"
+  },
+  {
+    "id": 270,
+    "nameCN": "融火",
+    "tree": 4,
+    "icon": 0,
+    "unknown": 100,
+    "description": "",
+    "prerequisites": [
+      2,
+      2,
+      4
+    ],
+    "tier": 2,
+    "position": 4,
+    "effectCategory": 49,
+    "grade": 4,
+    "cost": 160,
+    "conditions": [
+      2,
+      2,
+      4,
+      2,
+      4,
+      3
+    ],
+    "effectScale": 8,
+    "effectMaxValue": 80,
+    "nameEN": "Mergefire"
+  },
+  {
+    "id": 271,
+    "nameCN": "神树",
+    "tree": 4,
+    "icon": 0,
+    "unknown": 180,
+    "description": "",
+    "prerequisites": [
+      3,
+      4,
+      1
+    ],
+    "tier": 4,
+    "position": 1,
+    "effectCategory": 50,
+    "grade": 4,
+    "cost": 160,
+    "conditions": [
+      3,
+      4,
+      1,
+      4,
+      1,
+      1
+    ],
+    "effectScale": 20,
+    "effectMaxValue": 1500,
+    "nameEN": "Divine Tree"
+  },
+  {
+    "id": 272,
+    "nameCN": "神木",
+    "tree": 4,
+    "icon": 0,
+    "unknown": 100,
+    "description": "",
+    "prerequisites": [
+      2,
+      4,
+      2
+    ],
+    "tier": 2,
+    "position": 4,
+    "effectCategory": 51,
+    "grade": 4,
+    "cost": 160,
+    "conditions": [
+      2,
+      4,
+      2,
+      2,
+      4,
+      3
+    ],
+    "effectScale": 8,
+    "effectMaxValue": 80,
+    "nameEN": "Sacredwood"
+  },
+  {
+    "id": 273,
+    "nameCN": "星陨",
+    "tree": 4,
+    "icon": 0,
+    "unknown": 180,
+    "description": "",
+    "prerequisites": [
+      3,
+      1,
+      1
+    ],
+    "tier": 1,
+    "position": 4,
+    "effectCategory": 52,
+    "grade": 4,
+    "cost": 160,
+    "conditions": [
+      3,
+      1,
+      1,
+      1,
+      4,
+      4
+    ],
+    "effectScale": 20,
+    "effectMaxValue": 1500,
+    "nameEN": "Starfall"
+  },
+  {
+    "id": 274,
+    "nameCN": "裂土",
+    "tree": 4,
+    "icon": 0,
+    "unknown": 100,
+    "description": "",
+    "prerequisites": [
+      2,
+      2,
+      4
+    ],
+    "tier": 3,
+    "position": 4,
+    "effectCategory": 53,
+    "grade": 4,
+    "cost": 160,
+    "conditions": [
+      2,
+      2,
+      4,
+      3,
+      4,
+      2
+    ],
+    "effectScale": 8,
+    "effectMaxValue": 80,
+    "nameEN": "Crackearth"
+  },
+  {
+    "id": 275,
+    "nameCN": "领域",
+    "tree": 4,
+    "icon": 0,
+    "unknown": 180,
+    "description": "",
+    "prerequisites": [
+      1,
+      4,
+      1
+    ],
+    "tier": 4,
+    "position": 1,
+    "effectCategory": 54,
+    "grade": 4,
+    "cost": 160,
+    "conditions": [
+      1,
+      4,
+      1,
+      4,
+      1,
+      3
+    ],
+    "effectScale": 20,
+    "effectMaxValue": 1500,
+    "nameEN": "Domain"
+  },
+  {
+    "id": 276,
+    "nameCN": "圣心",
+    "tree": 4,
+    "icon": 0,
+    "unknown": 100,
+    "description": "",
+    "prerequisites": [
+      4,
+      2,
+      2
+    ],
+    "tier": 3,
+    "position": 2,
+    "effectCategory": 55,
+    "grade": 4,
+    "cost": 160,
+    "conditions": [
+      4,
+      2,
+      2,
+      3,
+      2,
+      4
+    ],
+    "effectScale": 8,
+    "effectMaxValue": 80,
+    "nameEN": "Holyheart"
+  },
+  {
+    "id": 277,
+    "nameCN": "裁决",
+    "tree": 4,
+    "icon": 0,
+    "unknown": 180,
+    "description": "",
+    "prerequisites": [
+      1,
+      1,
+      1
+    ],
+    "tier": 4,
+    "position": 4,
+    "effectCategory": 56,
+    "grade": 4,
+    "cost": 160,
+    "conditions": [
+      1,
+      1,
+      1,
+      4,
+      4,
+      3
+    ],
+    "effectScale": 20,
+    "effectMaxValue": 1500,
+    "nameEN": "Judge"
+  },
+  {
+    "id": 278,
+    "nameCN": "佑世",
+    "tree": 4,
+    "icon": 0,
+    "unknown": 100,
+    "description": "",
+    "prerequisites": [
+      3,
+      2,
+      4
+    ],
+    "tier": 4,
+    "position": 2,
+    "effectCategory": 57,
+    "grade": 4,
+    "cost": 160,
+    "conditions": [
+      3,
+      2,
+      4,
+      4,
+      2,
+      2
+    ],
+    "effectScale": 8,
+    "effectMaxValue": 80,
+    "nameEN": "Blessworld"
+  },
+  {
+    "id": 279,
+    "nameCN": "暗灭",
+    "tree": 4,
+    "icon": 0,
+    "unknown": 180,
+    "description": "",
+    "prerequisites": [
+      4,
+      1,
+      4
+    ],
+    "tier": 1,
+    "position": 3,
+    "effectCategory": 58,
+    "grade": 4,
+    "cost": 160,
+    "conditions": [
+      4,
+      1,
+      4,
+      1,
+      3,
+      1
+    ],
+    "effectScale": 20,
+    "effectMaxValue": 1500,
+    "nameEN": "Dark Oblivion"
+  },
+  {
+    "id": 280,
+    "nameCN": "冥佑",
+    "tree": 4,
+    "icon": 0,
+    "unknown": 100,
+    "description": "",
+    "prerequisites": [
+      2,
+      3,
+      2
+    ],
+    "tier": 4,
+    "position": 2,
+    "effectCategory": 59,
+    "grade": 4,
+    "cost": 160,
+    "conditions": [
+      2,
+      3,
+      2,
+      4,
+      2,
+      4
+    ],
+    "effectScale": 8,
+    "effectMaxValue": 80,
+    "nameEN": "Netherblessing"
+  },
+  {
+    "id": 281,
+    "nameCN": "全能",
+    "tree": 4,
+    "icon": 0,
+    "unknown": 180,
+    "description": "",
+    "prerequisites": [
+      3,
+      1,
+      1
+    ],
+    "tier": 4,
+    "position": 1,
+    "effectCategory": 60,
+    "grade": 4,
+    "cost": 160,
+    "conditions": [
+      3,
+      1,
+      1,
+      4,
+      1,
+      4
+    ],
+    "effectScale": 25,
+    "effectMaxValue": 1500,
+    "nameEN": "Omnipotent"
+  },
+  {
+    "id": 282,
+    "nameCN": "战神",
+    "tree": 4,
+    "icon": 0,
+    "unknown": 180,
+    "description": "",
+    "prerequisites": [
+      4,
+      3,
+      4
+    ],
+    "tier": 1,
+    "position": 1,
+    "effectCategory": 61,
+    "grade": 4,
+    "cost": 160,
+    "conditions": [
+      4,
+      3,
+      4,
+      1,
+      1,
+      1
+    ],
+    "effectScale": 25,
+    "effectMaxValue": 1500,
+    "nameEN": "God of war"
+  },
+  {
+    "id": 283,
+    "nameCN": "武宗",
+    "tree": 4,
+    "icon": 0,
+    "unknown": 180,
+    "description": "",
+    "prerequisites": [
+      1,
+      1,
+      1
+    ],
+    "tier": 4,
+    "position": 4,
+    "effectCategory": 62,
+    "grade": 4,
+    "cost": 160,
+    "conditions": [
+      1,
+      1,
+      1,
+      4,
+      4,
+      3
+    ],
+    "effectScale": 25,
+    "effectMaxValue": 1500,
+    "nameEN": "Martialsect"
+  },
+  {
+    "id": 284,
+    "nameCN": "符尊",
+    "tree": 4,
+    "icon": 0,
+    "unknown": 180,
+    "description": "",
+    "prerequisites": [
+      3,
+      1,
+      4
+    ],
+    "tier": 1,
+    "position": 1,
+    "effectCategory": 63,
+    "grade": 4,
+    "cost": 160,
+    "conditions": [
+      3,
+      1,
+      4,
+      1,
+      1,
+      4
+    ],
+    "effectScale": 25,
+    "effectMaxValue": 1500,
+    "nameEN": "Rune venerable"
+  },
+  {
+    "id": 285,
+    "nameCN": "射日",
+    "tree": 4,
+    "icon": 0,
+    "unknown": 180,
+    "description": "",
+    "prerequisites": [
+      4,
+      3,
+      1
+    ],
+    "tier": 1,
+    "position": 1,
+    "effectCategory": 64,
+    "grade": 4,
+    "cost": 160,
+    "conditions": [
+      4,
+      3,
+      1,
+      1,
+      1,
+      4
+    ],
+    "effectScale": 25,
+    "effectMaxValue": 1500,
+    "nameEN": "Shoot sun"
+  },
+  {
+    "id": 286,
+    "nameCN": "神方",
+    "tree": 4,
+    "icon": 0,
+    "unknown": 180,
+    "description": "",
+    "prerequisites": [
+      3,
+      4,
+      1
+    ],
+    "tier": 4,
+    "position": 1,
+    "effectCategory": 65,
+    "grade": 4,
+    "cost": 160,
+    "conditions": [
+      3,
+      4,
+      1,
+      4,
+      1,
+      1
+    ],
+    "effectScale": 25,
+    "effectMaxValue": 1500,
+    "nameEN": "Divineformula"
+  },
+  {
+    "id": 287,
+    "nameCN": "超能",
+    "tree": 4,
+    "icon": 0,
+    "unknown": 180,
+    "description": "",
+    "prerequisites": [
+      3,
+      4,
+      1
+    ],
+    "tier": 4,
+    "position": 1,
+    "effectCategory": 66,
+    "grade": 4,
+    "cost": 160,
+    "conditions": [
+      3,
+      4,
+      1,
+      4,
+      1,
+      1
+    ],
+    "effectScale": 25,
+    "effectMaxValue": 1500,
+    "nameEN": "Superpower"
+  },
+  {
+    "id": 288,
+    "nameCN": "圣灵",
+    "tree": 4,
+    "icon": 0,
+    "unknown": 180,
+    "description": "",
+    "prerequisites": [
+      1,
+      1,
+      1
+    ],
+    "tier": 4,
+    "position": 4,
+    "effectCategory": 67,
+    "grade": 4,
+    "cost": 160,
+    "conditions": [
+      1,
+      1,
+      1,
+      4,
+      4,
+      3
+    ],
+    "effectScale": 25,
+    "effectMaxValue": 1500,
+    "nameEN": "Holyspirit"
+  },
+  {
+    "id": 289,
+    "nameCN": "斗帝",
+    "tree": 4,
+    "icon": 0,
+    "unknown": 180,
+    "description": "",
+    "prerequisites": [
+      4,
+      1,
+      3
+    ],
+    "tier": 4,
+    "position": 1,
+    "effectCategory": 68,
+    "grade": 4,
+    "cost": 160,
+    "conditions": [
+      4,
+      1,
+      3,
+      4,
+      1,
+      1
+    ],
+    "effectScale": 25,
+    "effectMaxValue": 1500,
+    "nameEN": "Fightingemperor"
+  },
+  {
+    "id": 290,
+    "nameCN": "影忍",
+    "tree": 4,
+    "icon": 0,
+    "unknown": 180,
+    "description": "",
+    "prerequisites": [
+      3,
+      4,
+      1
+    ],
+    "tier": 1,
+    "position": 1,
+    "effectCategory": 69,
+    "grade": 4,
+    "cost": 160,
+    "conditions": [
+      3,
+      4,
+      1,
+      1,
+      1,
+      4
+    ],
+    "effectScale": 25,
+    "effectMaxValue": 1500,
+    "nameEN": "Shadowninja"
+  },
+  {
+    "id": 291,
+    "nameCN": "魔尊",
+    "tree": 4,
+    "icon": 0,
+    "unknown": 180,
+    "description": "",
+    "prerequisites": [
+      3,
+      1,
+      4
+    ],
+    "tier": 1,
+    "position": 1,
+    "effectCategory": 70,
+    "grade": 4,
+    "cost": 160,
+    "conditions": [
+      3,
+      1,
+      4,
+      1,
+      1,
+      4
+    ],
+    "effectScale": 25,
+    "effectMaxValue": 1500,
+    "nameEN": "Demon Lord"
+  },
+  {
+    "id": 292,
+    "nameCN": "大成",
+    "tree": 4,
+    "icon": 0,
+    "unknown": 180,
+    "description": "",
+    "prerequisites": [
+      1,
+      1,
+      4
+    ],
+    "tier": 1,
+    "position": 3,
+    "effectCategory": 71,
+    "grade": 4,
+    "cost": 160,
+    "conditions": [
+      1,
+      1,
+      4,
+      1,
+      3,
+      4
+    ],
+    "effectScale": 25,
+    "effectMaxValue": 1500,
+    "nameEN": "Greatachievement"
+  },
+  {
+    "id": 293,
+    "nameCN": "枪神",
+    "tree": 4,
+    "icon": 0,
+    "unknown": 180,
+    "description": "",
+    "prerequisites": [
+      1,
+      3,
+      4
+    ],
+    "tier": 4,
+    "position": 1,
+    "effectCategory": 72,
+    "grade": 4,
+    "cost": 160,
+    "conditions": [
+      1,
+      3,
+      4,
+      4,
+      1,
+      1
+    ],
+    "effectScale": 25,
+    "effectMaxValue": 1500,
+    "nameEN": "Gun god"
+  },
+  {
+    "id": 294,
+    "nameCN": "主宰",
+    "tree": 4,
+    "icon": 0,
+    "unknown": 180,
+    "description": "",
+    "prerequisites": [
+      3,
+      4,
+      1
+    ],
+    "tier": 1,
+    "position": 1,
+    "effectCategory": 73,
+    "grade": 4,
+    "cost": 160,
+    "conditions": [
+      3,
+      4,
+      1,
+      1,
+      1,
+      4
+    ],
+    "effectScale": 25,
+    "effectMaxValue": 1500,
+    "nameEN": "Dominator"
+  },
+  {
+    "id": 295,
+    "nameCN": "唤世",
+    "tree": 4,
+    "icon": 0,
+    "unknown": 180,
+    "description": "",
+    "prerequisites": [
+      1,
+      4,
+      1
+    ],
+    "tier": 4,
+    "position": 3,
+    "effectCategory": 74,
+    "grade": 4,
+    "cost": 160,
+    "conditions": [
+      1,
+      4,
+      1,
+      4,
+      3,
+      1
+    ],
+    "effectScale": 25,
+    "effectMaxValue": 1500,
+    "nameEN": "Summonworld"
+  },
+  {
+    "id": 296,
+    "nameCN": "医圣",
+    "tree": 4,
+    "icon": 0,
+    "unknown": 180,
+    "description": "",
+    "prerequisites": [
+      1,
+      1,
+      4
+    ],
+    "tier": 4,
+    "position": 3,
+    "effectCategory": 75,
+    "grade": 4,
+    "cost": 160,
+    "conditions": [
+      1,
+      1,
+      4,
+      4,
+      3,
+      1
+    ],
+    "effectScale": 25,
+    "effectMaxValue": 1500,
+    "nameEN": "Immortalsaint"
+  },
+  {
+    "id": 297,
+    "nameCN": "剑灭",
+    "tree": 4,
+    "icon": 0,
+    "unknown": 180,
+    "description": "",
+    "prerequisites": [
+      1,
+      1,
+      4
+    ],
+    "tier": 3,
+    "position": 1,
+    "effectCategory": 93,
+    "grade": 4,
+    "cost": 160,
+    "conditions": [
+      1,
+      1,
+      4,
+      3,
+      1,
+      4
+    ],
+    "effectScale": 25,
+    "effectMaxValue": 1500,
+    "nameEN": "Sworddestroy"
+  },
+  {
+    "id": 298,
+    "nameCN": "如龙",
+    "tree": 4,
+    "icon": 0,
+    "unknown": 180,
+    "description": "",
+    "prerequisites": [
+      3,
+      1,
+      1
+    ],
+    "tier": 1,
+    "position": 4,
+    "effectCategory": 92,
+    "grade": 4,
+    "cost": 160,
+    "conditions": [
+      3,
+      1,
+      1,
+      1,
+      4,
+      4
+    ],
+    "effectScale": 25,
+    "effectMaxValue": 1500,
+    "nameEN": "Dragonlike"
+  },
+  {
+    "id": 299,
+    "nameCN": "圣典",
+    "tree": 4,
+    "icon": 0,
+    "unknown": 180,
+    "description": "",
+    "prerequisites": [
+      1,
+      1,
+      1
+    ],
+    "tier": 4,
+    "position": 4,
+    "effectCategory": 100,
+    "grade": 4,
+    "cost": 160,
+    "conditions": [
+      1,
+      1,
+      1,
+      4,
+      4,
+      3
+    ],
+    "effectScale": 25,
+    "effectMaxValue": 1500,
+    "nameEN": "Holycanon"
+  },
+  {
+    "id": 300,
+    "nameCN": "尊世",
+    "tree": 4,
+    "icon": 0,
+    "unknown": 180,
+    "description": "",
+    "prerequisites": [
+      4,
+      4,
+      3
+    ],
+    "tier": 1,
+    "position": 1,
+    "effectCategory": 96,
+    "grade": 4,
+    "cost": 160,
+    "conditions": [
+      4,
+      4,
+      3,
+      1,
+      1,
+      1
+    ],
+    "effectScale": 25,
+    "effectMaxValue": 1500,
+    "nameEN": "Respectworld"
+  },
+  {
+    "id": 301,
+    "nameCN": "绝杀",
+    "tree": 4,
+    "icon": 0,
+    "unknown": 180,
+    "description": "",
+    "prerequisites": [
+      3,
+      1,
+      1
+    ],
+    "tier": 4,
+    "position": 4,
+    "effectCategory": 98,
+    "grade": 4,
+    "cost": 160,
+    "conditions": [
+      3,
+      1,
+      1,
+      4,
+      4,
+      1
+    ],
+    "effectScale": 25,
+    "effectMaxValue": 1500,
+    "nameEN": "Killsure"
+  },
+  {
+    "id": 302,
+    "nameCN": "歼星",
+    "tree": 4,
+    "icon": 0,
+    "unknown": 180,
+    "description": "",
+    "prerequisites": [
+      1,
+      4,
+      4
+    ],
+    "tier": 1,
+    "position": 3,
+    "effectCategory": 99,
+    "grade": 4,
+    "cost": 160,
+    "conditions": [
+      1,
+      4,
+      4,
+      1,
+      3,
+      1
+    ],
+    "effectScale": 25,
+    "effectMaxValue": 1500,
+    "nameEN": "Destroystar"
+  },
+  {
+    "id": 303,
+    "nameCN": "拳碎",
+    "tree": 4,
+    "icon": 0,
+    "unknown": 180,
+    "description": "",
+    "prerequisites": [
+      1,
+      4,
+      3
+    ],
+    "tier": 4,
+    "position": 1,
+    "effectCategory": 94,
+    "grade": 4,
+    "cost": 160,
+    "conditions": [
+      1,
+      4,
+      3,
+      4,
+      1,
+      1
+    ],
+    "effectScale": 25,
+    "effectMaxValue": 1500,
+    "nameEN": "Fistsmash"
+  },
+  {
+    "id": 304,
+    "nameCN": "影神",
+    "tree": 4,
+    "icon": 0,
+    "unknown": 180,
+    "description": "",
+    "prerequisites": [
+      3,
+      1,
+      1
+    ],
+    "tier": 4,
+    "position": 1,
+    "effectCategory": 95,
+    "grade": 4,
+    "cost": 160,
+    "conditions": [
+      3,
+      1,
+      1,
+      4,
+      1,
+      4
+    ],
+    "effectScale": 25,
+    "effectMaxValue": 1500,
+    "nameEN": "Shadowgod"
+  },
+  {
+    "id": 305,
+    "nameCN": "天威",
+    "tree": 4,
+    "icon": 0,
+    "unknown": 180,
+    "description": "",
+    "prerequisites": [
+      4,
+      1,
+      4
+    ],
+    "tier": 1,
+    "position": 3,
+    "effectCategory": 97,
+    "grade": 4,
+    "cost": 160,
+    "conditions": [
+      4,
+      1,
+      4,
+      1,
+      3,
+      1
+    ],
+    "effectScale": 25,
+    "effectMaxValue": 1500,
+    "nameEN": "Wrath"
+  },
+  {
+    "id": 306,
+    "nameCN": "器神",
+    "tree": 4,
+    "icon": 0,
+    "unknown": 180,
+    "description": "",
+    "prerequisites": [
+      3,
+      1,
+      1
+    ],
+    "tier": 4,
+    "position": 4,
+    "effectCategory": 101,
+    "grade": 4,
+    "cost": 160,
+    "conditions": [
+      3,
+      1,
+      1,
+      4,
+      4,
+      1
+    ],
+    "effectScale": 25,
+    "effectMaxValue": 1500,
+    "nameEN": "Artifact god"
+  },
+  {
+    "id": 307,
+    "nameCN": "兽魂",
+    "tree": 4,
+    "icon": 0,
+    "unknown": 180,
+    "description": "",
+    "prerequisites": [
+      1,
+      4,
+      4
+    ],
+    "tier": 3,
+    "position": 4,
+    "effectCategory": 137,
+    "grade": 4,
+    "cost": 160,
+    "conditions": [
+      1,
+      4,
+      4,
+      3,
+      4,
+      2
+    ],
+    "effectScale": 25,
+    "effectMaxValue": 2500,
+    "nameEN": "[size=12]Beastsoul"
+  },
+  {
+    "id": 308,
+    "nameCN": "统御",
+    "tree": 4,
+    "icon": 0,
+    "unknown": 180,
+    "description": "",
+    "prerequisites": [
+      4,
+      1,
+      3
+    ],
+    "tier": 2,
+    "position": 4,
+    "effectCategory": 138,
+    "grade": 4,
+    "cost": 160,
+    "conditions": [
+      4,
+      1,
+      3,
+      2,
+      4,
+      4
+    ],
+    "effectScale": 25,
+    "effectMaxValue": 2500,
+    "nameEN": "Command"
+  },
+  {
+    "id": 309,
+    "nameCN": "神造",
+    "tree": 4,
+    "icon": 0,
+    "unknown": 180,
+    "description": "",
+    "prerequisites": [
+      1,
+      4,
+      4
+    ],
+    "tier": 4,
+    "position": 2,
+    "effectCategory": 139,
+    "grade": 4,
+    "cost": 160,
+    "conditions": [
+      1,
+      4,
+      4,
+      4,
+      2,
+      3
+    ],
+    "effectScale": 25,
+    "effectMaxValue": 2500,
+    "nameEN": "Divinecreation"
+  },
+  {
+    "id": 310,
+    "nameCN": "圣学",
+    "tree": 4,
+    "icon": 0,
+    "unknown": 180,
+    "description": "",
+    "prerequisites": [
+      1,
+      2,
+      4
+    ],
+    "tier": 4,
+    "position": 4,
+    "effectCategory": 140,
+    "grade": 4,
+    "cost": 160,
+    "conditions": [
+      1,
+      2,
+      4,
+      4,
+      4,
+      3
+    ],
+    "effectScale": 25,
+    "effectMaxValue": 2500,
+    "nameEN": "Holylearning"
+  },
+  {
+    "id": 311,
+    "nameCN": "本源",
+    "tree": 4,
+    "icon": 0,
+    "unknown": 180,
+    "description": "",
+    "prerequisites": [
+      4,
+      2,
+      4
+    ],
+    "tier": 1,
+    "position": 4,
+    "effectCategory": 141,
+    "grade": 4,
+    "cost": 160,
+    "conditions": [
+      4,
+      2,
+      4,
+      1,
+      4,
+      3
+    ],
+    "effectScale": 25,
+    "effectMaxValue": 2500,
+    "nameEN": "Origin"
+  },
+  {
+    "id": 312,
+    "nameCN": "规划",
+    "tree": 4,
+    "icon": 0,
+    "unknown": 180,
+    "description": "",
+    "prerequisites": [
+      4,
+      3,
+      4
+    ],
+    "tier": 4,
+    "position": 1,
+    "effectCategory": 142,
+    "grade": 4,
+    "cost": 160,
+    "conditions": [
+      4,
+      3,
+      4,
+      4,
+      1,
+      2
+    ],
+    "effectScale": 25,
+    "effectMaxValue": 2500,
+    "nameEN": "Plan"
+  },
+  {
+    "id": 313,
+    "nameCN": "巨擘",
+    "tree": 4,
+    "icon": 0,
+    "unknown": 180,
+    "description": "",
+    "prerequisites": [
+      1,
+      4,
+      4
+    ],
+    "tier": 4,
+    "position": 2,
+    "effectCategory": 143,
+    "grade": 4,
+    "cost": 160,
+    "conditions": [
+      1,
+      4,
+      4,
+      4,
+      2,
+      3
+    ],
+    "effectScale": 25,
+    "effectMaxValue": 2500,
+    "nameEN": "Giant"
+  },
+  {
+    "id": 314,
+    "nameCN": "创造",
+    "tree": 4,
+    "icon": 0,
+    "unknown": 180,
+    "description": "",
+    "prerequisites": [
+      3,
+      1,
+      2
+    ],
+    "tier": 4,
+    "position": 4,
+    "effectCategory": 144,
+    "grade": 4,
+    "cost": 160,
+    "conditions": [
+      3,
+      1,
+      2,
+      4,
+      4,
+      4
+    ],
+    "effectScale": 25,
+    "effectMaxValue": 2500,
+    "nameEN": "Create"
+  },
+  {
+    "id": 315,
+    "nameCN": "元帅",
+    "tree": 4,
+    "icon": 0,
+    "unknown": 180,
+    "description": "",
+    "prerequisites": [
+      1,
+      4,
+      2
+    ],
+    "tier": 3,
+    "position": 4,
+    "effectCategory": 145,
+    "grade": 4,
+    "cost": 160,
+    "conditions": [
+      1,
+      4,
+      2,
+      3,
+      4,
+      4
+    ],
+    "effectScale": 25,
+    "effectMaxValue": 2500,
+    "nameEN": "Marshal"
+  },
+  {
+    "id": 316,
+    "nameCN": "教授",
+    "tree": 4,
+    "icon": 0,
+    "unknown": 180,
+    "description": "",
+    "prerequisites": [
+      2,
+      1,
+      4
+    ],
+    "tier": 4,
+    "position": 4,
+    "effectCategory": 146,
+    "grade": 4,
+    "cost": 160,
+    "conditions": [
+      2,
+      1,
+      4,
+      4,
+      4,
+      3
+    ],
+    "effectScale": 25,
+    "effectMaxValue": 2500,
+    "nameEN": "Professor"
+  },
+  {
+    "id": 317,
+    "nameCN": "学生",
+    "tree": 1,
+    "icon": 0,
+    "unknown": 20,
+    "description": "曾经读过一些书！",
+    "prerequisites": [
+      3,
+      2,
+      2
+    ],
+    "tier": 3,
+    "position": 1,
+    "effectCategory": 39,
+    "grade": 1,
+    "cost": 0,
+    "conditions": [
+      3,
+      2,
+      2,
+      3,
+      1,
+      1
+    ],
+    "nameEN": "Student"
+  },
+  {
+    "id": 318,
+    "nameCN": "平民",
+    "tree": 1,
+    "icon": 0,
+    "unknown": 20,
+    "description": "从来没什么背景！",
+    "prerequisites": [
+      3,
+      1,
+      2
+    ],
+    "tier": 1,
+    "position": 2,
+    "effectCategory": 40,
+    "grade": 1,
+    "cost": 0,
+    "conditions": [
+      3,
+      1,
+      2,
+      1,
+      2,
+      3
+    ],
+    "nameEN": "Civilian"
+  },
+  {
+    "id": 319,
+    "nameCN": "社畜",
+    "tree": 1,
+    "icon": 0,
+    "unknown": 20,
+    "description": "后来一直在打工！",
+    "prerequisites": [
+      1,
+      2,
+      1
+    ],
+    "tier": 2,
+    "position": 3,
+    "effectCategory": 41,
+    "grade": 1,
+    "cost": 0,
+    "conditions": [
+      1,
+      2,
+      1,
+      2,
+      3,
+      3
+    ],
+    "nameEN": "Officeworker"
+  },
+  {
+    "id": 320,
+    "nameCN": "凡人",
+    "tree": 1,
+    "icon": 0,
+    "unknown": 20,
+    "description": "活着不易！",
+    "prerequisites": [
+      3,
+      3,
+      1
+    ],
+    "tier": 2,
+    "position": 1,
+    "effectCategory": 42,
+    "grade": 1,
+    "cost": 0,
+    "conditions": [
+      3,
+      3,
+      1,
+      2,
+      1,
+      2
+    ],
+    "nameEN": "Mortal"
+  }
+]

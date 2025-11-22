@@ -33,16 +33,6 @@ firebase-debug.log
 .env.local
 .env.*.local
 
-# Generated data files (can regenerate from scripts)
-src/data/*.json
-
-# Data directory (generated files, but keep schemas and types)
-data/extracted/
-data/*.json
-!data/schemas/
-!data/types/
-!data/*.md
-
 public/
 
 .vercel

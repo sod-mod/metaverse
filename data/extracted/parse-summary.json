@@ -1,0 +1,119 @@
+{
+  "timestamp": "2025-11-22T14:38:31.766Z",
+  "sourceDirs": [
+    "../package"
+  ],
+  "multilingual": false,
+  "statistics": {
+    "totalFiles": 10,
+    "totalRecords": 3699,
+    "successfulRecords": 3699,
+    "failedRecords": 0,
+    "totalErrors": 0,
+    "totalWarnings": 0,
+    "byType": {
+      "buff": {
+        "total": 67,
+        "parsed": 67,
+        "failed": 0,
+        "errors": 0
+      },
+      "skill": {
+        "total": 377,
+        "parsed": 377,
+        "failed": 0,
+        "errors": 0
+      },
+      "talent": {
+        "total": 320,
+        "parsed": 320,
+        "failed": 0,
+        "errors": 0
+      },
+      "equipment": {
+        "total": 1686,
+        "parsed": 1686,
+        "failed": 0,
+        "errors": 0
+      },
+      "enemy": {
+        "total": 409,
+        "parsed": 409,
+        "failed": 0,
+        "errors": 0
+      },
+      "job": {
+        "total": 41,
+        "parsed": 41,
+        "failed": 0,
+        "errors": 0
+      },
+      "effectType": {
+        "total": 202,
+        "parsed": 202,
+        "failed": 0,
+        "errors": 0
+      },
+      "hero": {
+        "total": 165,
+        "parsed": 165,
+        "failed": 0,
+        "errors": 0
+      },
+      "stage": {
+        "total": 360,
+        "parsed": 360,
+        "failed": 0,
+        "errors": 0
+      },
+      "shop": {
+        "total": 72,
+        "parsed": 72,
+        "failed": 0,
+        "errors": 0
+      }
+    }
+  },
+  "exports": {
+    "buff": {
+      "filename": "buff.json",
+      "records": 67
+    },
+    "skill": {
+      "filename": "skill.json",
+      "records": 377
+    },
+    "talent": {
+      "filename": "talent.json",
+      "records": 320
+    },
+    "equipment": {
+      "filename": "equipment.json",
+      "records": 1686
+    },
+    "enemy": {
+      "filename": "enemy.json",
+      "records": 409
+    },
+    "job": {
+      "filename": "job.json",
+      "records": 41
+    },
+    "effectType": {
+      "filename": "effectType.json",
+      "records": 202
+    },
+    "hero": {
+      "filename": "hero.json",
+      "records": 165
+    },
+    "stage": {
+      "filename": "stage.json",
+      "records": 360
+    },
+    "shop": {
+      "filename": "shop.json",
+      "records": 72
+    }
+  }
+}
